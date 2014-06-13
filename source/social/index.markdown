@@ -6,4 +6,5 @@ comments: true
 sharing: true
 footer: true
 ---
-This is my social change
+
+This is my social page
