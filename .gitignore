@@ -5,6 +5,8 @@
 .pygments-cache
 _deploy
 public
+admin_access.txt
+dev_notes.txt
 sass.old
 source.old
 source/_stash
