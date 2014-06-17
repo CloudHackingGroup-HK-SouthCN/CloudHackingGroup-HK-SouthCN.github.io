@@ -1,2 +1,18 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
+@import "announcement";
+
+html {
+  -webkit-font-smoothing: antialiased;
+}
+
+header[role="banner"]>hgroup {
+  text-align: center;
+
+  .logo {
+    width: 60px;
+    height: 60px;
+    position: relative;
+    top: 10px;
+  }
+}
