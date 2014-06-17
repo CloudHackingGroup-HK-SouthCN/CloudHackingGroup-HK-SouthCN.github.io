@@ -1,9 +1,11 @@
 ---
 layout: post
 title: "Getting into PaaS"
-date: 2014-06-17 19:25:03 +0800
+date: 2014-06-17 17:25:03 +0800
 comments: true
-categories:
+categories: [PaaS, China, Market]
+description: "A brief description on how I get into PaaS field, and why this field is getting more and more attention."
+author: Jimmy Chu
 ---
 
 ### Couldn't find a good PaaS Solution in China
