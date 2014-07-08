@@ -1,9 +1,18 @@
 ---
 layout: default
 single: true
+announcement: true
 ---
 
 <div>
+
+{% if page.announcement == true %}
+<div class="announcement">
+  <strong>ANNOUNCEMENT: </strong>
+  {% include announcement.html %}
+</div>
+{% endif %}
+
 <article class="hentry" role="article">
   {% include article.html %}
   <footer>
