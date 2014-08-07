@@ -15,6 +15,10 @@ group :development do
   gem 'stringex', '~> 1.4.0'
   gem 'liquid', '~> 2.3.0'
   gem 'directory_watcher', '1.4.1'
+
+  # Use thin for correct rendering in Safari in Mavericks
+  # https://github.com/imathis/octopress/issues/1395
+  gem 'thin', '~> 1.6.1'
 end
 
 gem 'sinatra', '~> 1.4.2'
