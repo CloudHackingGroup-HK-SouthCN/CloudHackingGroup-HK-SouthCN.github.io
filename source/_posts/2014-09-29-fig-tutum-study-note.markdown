@@ -4,13 +4,15 @@ title: "Fig 及 Tutum 学习小结"
 date: 2014-09-29 16:59:17 +0800
 comments: true
 categories: [PaaS, Docker]
-description: ""
+description: "Fig 及 Tutum 学习小结"
 author: Jimmy Chu
 ---
 
 ## Fig － Docker 多容器协调工具
 
-我最近和同事共同研究 Docker 的开发生态系统。今天开始去尝试用 [Fig](http://www.fig.sh/). Fig 团队甚至乎是被 [Docker](http://www.docker.com) 原团队收购去了。
+{% img center http://www.fig.sh/img/logo.png 180 Fig - Docker 多容器协调工具 %}
+
+我最近和同事共同研究 Docker 的开发生态系统。今天开始去尝试用 [Fig](http://www.fig.sh/). Fig 团队甚至乎被 [Docker](http://www.docker.com) [原团队收购去](http://blog.docker.com/2014/07/welcoming-the-orchard-and-fig-team/)了。
 
 如果你在开发 RoR 应用时用过 Foreman 布署应用。就不难理解 Fig。现在网络应用趋向分成不同的服务, 以服务为单元来运行。这样一个应用跑起来底下其实就有好几个服务的互相协调运作。一个 RoR 应用可以有 Rails 的服务，数据库服务，及 后台 workers 的服务。而 Foreman 就是那工具可轻松的把这三个服务一并跑起来并互相连接，使那个应用能完整的运作。
 
@@ -18,21 +20,21 @@ author: Jimmy Chu
 
 在一个 fig.yml (可理解为 Foreman 里的 Procfile 般) 里，你就设定此应用的不同组件，及他们如何连结，挺方便。以下是一个跑 Rails 应用的 设置。
 
-    db:
-      image: postgres:latest
-      ports:
-        - "5432"
-    web:
-      build: .
-      command: bundle exec rackup -p 3000
-      volumes:
-        - .:/myapp
-      ports:
-        - "3000:3000"
-      links:
-        - db
-
-<div style="text-align:center;font-weight:bold">一个 fig.yml 的范例</div>
+``` yaml 一个 fig.yml 的范例
+db:
+  image: postgres:latest
+  ports:
+    - "5432"
+web:
+  build: .
+  command: bundle exec rackup -p 3000
+  volumes:
+    - .:/myapp
+  ports:
+    - "3000:3000"
+  links:
+    - db
+```
 
 这里说明了有一个 `db` 及 `web` 的服务。`db` 的服务来自 Docker 官方镜像 `postgres:latest`, 听着 `5432` 端口。而 `web` 那边，则会从本目录的 Dockerfile 来 建立起来。最后走的指令是 `bundle exec rackup -p 3000`. 本目录 也分享到容器内的 `myapp` 目录内。最后就是把他与 `db` 容器连起来。
 
@@ -47,6 +49,8 @@ author: Jimmy Chu
 留待下一步试验吧。
 
 ## Tutum － Docker 容器的云托管服务
+
+<img class="center" src="{{root_url}}/images/posts/tutum.png" width="180px" title="Tutum － Docker 容器的云托管服务"></img>
 
 Docker 生态已足够巨大到甚至乎有初创企业搞了个 Docker 容器的云托管服务。[Tutum](www.tutum.co) 就是赌在会越来越多人在 Docker 上作开发，以致到以 Docker 为单元的去部署生产应用。这样的话，一台虚拟机也嫌多，你需要的只是一个地方可跑你多个 Docker 容器。
 
