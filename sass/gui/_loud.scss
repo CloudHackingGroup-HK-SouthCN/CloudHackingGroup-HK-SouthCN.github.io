@@ -1,0 +1,10 @@
+.loud {
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  @media (min-width: 768px) {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+}

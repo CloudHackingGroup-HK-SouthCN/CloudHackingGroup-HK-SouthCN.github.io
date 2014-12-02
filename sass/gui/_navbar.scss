@@ -1,0 +1,12 @@
+.navbar-cnpaas {
+  background-color: desaturate(darken(#31b0d5, 35%), 50%);
+  border-color: desaturate(darken(#31b0d5, 15%), 50%);
+  border-width: 0 0 5px;  
+
+  .navbar-brand {
+    color: #f8f8fa;
+    font-size: 28px;
+    font-weight: 100;
+    letter-spacing: 2px;
+  }
+}

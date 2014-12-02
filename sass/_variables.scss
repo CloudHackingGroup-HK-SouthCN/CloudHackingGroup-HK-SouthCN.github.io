@@ -1,0 +1,167 @@
+// Copied from Octopress for backward compatibility
+
+$max-width: 1200px !default;
+
+// Padding used for layout margins
+$pad-min: 18px !default;
+$pad-narrow: 25px !default;
+$pad-medium: 35px !default;
+$pad-wide: 55px !default;
+
+// Sidebar widths used in media queries
+$sidebar-width-medium: 240px !default;
+$sidebar-pad-medium: 15px !default;
+$sidebar-pad-wide: 20px !default;
+$sidebar-width-wide: 300px !default;
+
+$indented-lists: false !default;
+
+$header-font-size: 1em !default;
+$header-padding-top: 1.5em !default;
+$header-padding-bottom: 1.5em !default;
+
+$base03:          #002b36 !default; //darkest blue
+$base02:          #073642 !default; //dark blue
+$base01:          #586e75 !default; //darkest gray
+$base00:          #657b83 !default; //dark gray
+$base0:           #839496 !default; //medium gray
+$base1:           #93a1a1 !default; //medium light gray
+$base2:           #eee8d5 !default; //cream
+$base3:           #fdf6e3 !default; //white
+$solar-yellow:    #b58900 !default;
+$solar-orange:    #cb4b16 !default;
+$solar-red:       #dc322f !default;
+$solar-magenta:   #d33682 !default;
+$solar-violet:    #6c71c4 !default;
+$solar-blue:      #268bd2 !default;
+$solar-cyan:      #2aa198 !default;
+$solar-green:     #859900 !default;
+
+$solarized: dark !default;
+
+@if $solarized == light {
+
+  $_base03: $base03;
+  $_base02: $base02;
+  $_base01: $base01;
+  $_base00: $base00;
+  $_base0:  $base0;
+  $_base1:  $base1;
+  $_base2:  $base2;
+  $_base3:  $base3;
+
+  $base03:  $_base3;
+  $base02:  $_base2;
+  $base01:  $_base1;
+  $base00:  $_base0;
+  $base0:   $_base00;
+  $base1:   $_base01;
+  $base2:   $_base02;
+  $base3:   $_base03;
+}
+
+/* non highlighted code colors */
+$pre-bg: $base03 !default;
+$pre-border: darken($base02, 5) !default;
+$pre-color: $base1 !default;
+
+
+$noise-bg: image-url('noise.png') top left !default;
+$img-border: inline-image('dotted-border.png') !default;
+
+// Main Link Colors
+$link-color: lighten(#165b94, 3) !default;
+$link-color-hover: adjust-color($link-color, $lightness: 10, $saturation: 25) !default;
+$link-color-visited: adjust-color($link-color, $hue: 80, $lightness: -4) !default;
+$link-color-active: adjust-color($link-color-hover, $lightness: -15) !default;
+
+// Main Section Colors
+$main-bg: #f8f8f8 !default;
+$page-bg: #252525 !default;
+$article-border: #eeeeee !default;
+
+$header-bg: #333 !default;
+$header-border: lighten($header-bg, 15) !default;
+$title-color: #f2f2f2 !default;
+$subtitle-color: #aaa !default;
+
+$text-color: #222 !default;
+$text-color-light: #aaa !default;
+$type-border: #ddd !default;
+
+/* Navigation */
+$nav-bg: #ccc !default;
+$nav-bg-front: image-url('noise.png') !default;
+$nav-bg-back: linear-gradient(lighten($nav-bg, 8), $nav-bg, darken($nav-bg, 11)) !default;
+$nav-color: darken($nav-bg, 38) !default;
+$nav-color-hover: darken($nav-color, 25) !default;
+$nav-placeholder: desaturate(darken($nav-bg, 10), 15) !default;
+$nav-border: darken($nav-bg, 10) !default;
+$nav-border-top: lighten($nav-bg, 15) !default;
+$nav-border-bottom: darken($nav-bg, 25) !default;
+$nav-border-left: darken($nav-bg, 11) !default;
+$nav-border-right: lighten($nav-bg, 7) !default;
+
+/* Sidebar colors */
+$sidebar-bg: #f2f2f2 !default;
+$sidebar-link-color: $text-color !default;
+$sidebar-link-color-hover: $link-color-hover !default;
+$sidebar-link-color-active: $link-color-active !default;
+$sidebar-color: change-color(mix($text-color, $sidebar-bg, 80), $hue: hue($sidebar-bg), $saturation: saturation($sidebar-bg)/2) !default;
+$sidebar-border: desaturate(darken($sidebar-bg, 7), 10) !default;
+$sidebar-border-hover: darken($sidebar-bg, 7) !default;
+$sidebar-link-color-subdued: lighten($sidebar-color, 20) !default;
+$sidebar-link-color-subdued-hover: $sidebar-link-color-hover !default;
+
+$footer-color: #888 !default;
+$footer-bg: #ccc !default;
+$footer-bg-front: image-url('noise.png') !default;
+$footer-bg-back: linear-gradient(lighten($footer-bg, 8), $footer-bg, darken($footer-bg, 11)) !default;
+$footer-color: darken($footer-bg, 38) !default;
+$footer-color-hover: darken($footer-color, 10) !default;
+$footer-border-top: lighten($footer-bg, 15) !default;
+$footer-border-bottom: darken($footer-bg, 15) !default;
+$footer-link-color: darken($footer-bg, 38) !default;
+$footer-link-color-hover: darken($footer-color, 25) !default;
+$page-border-bottom: darken($footer-bg, 5) !default;
+
+$blockquote: $type-border !default;
+$sans: "PT Sans", "Helvetica Neue", Arial, sans-serif !default;
+$serif: "PT Serif", Georgia, Times, "Times New Roman", serif !default;
+$mono: Menlo, Monaco, "Andale Mono", "lucida console", "Courier New", monospace !default;
+$heading-font-family: "PT Serif", "Georgia", "Helvetica Neue", Arial, sans-serif !default;
+$header-title-font-family: $heading-font-family !default;
+$header-subtitle-font-family: $heading-font-family !default;
+
+.sans { font-family: $sans; }
+.serif { font-family: $serif; }
+.mono { font-family: $mono; }
+
+@mixin mask-image($img, $repeat: no-repeat){
+  @include experimental(mask-image, image-url($img), -webkit, -moz, -o, -ms);
+  @include experimental(mask-repeat, $repeat, -webkit, -moz, -o, -ms);
+  width: image-width($img);
+  height: image-height($img);
+}
+
+@mixin shadow-box($border: #fff .5em solid, $shadow: rgba(#000, .15) 0 1px 4px, $border-radius: .3em) {
+  @include border-radius($border-radius);
+  @include box-shadow($shadow);
+  @include box-sizing(border-box);
+  border: $border;
+}
+
+@mixin selection($bg, $color: inherit, $text-shadow: none){
+  * {
+    &::-moz-selection { background: $bg; color: $color; text-shadow: $text-shadow; }
+    &::-webkit-selection { background: $bg; color: $color; text-shadow: $text-shadow; }
+    &::selection { background: $bg; color: $color; text-shadow: $text-shadow; }
+  }
+}
+
+@function text-color($color, $dark: dark, $light: light){
+  $text-color: ( (red($color)*299) + (green($color)*587) + (blue($color)*114) ) / 1000;
+  $text-color: if($text-color >= 150, $dark, $light);
+  @return $text-color;
+}
+

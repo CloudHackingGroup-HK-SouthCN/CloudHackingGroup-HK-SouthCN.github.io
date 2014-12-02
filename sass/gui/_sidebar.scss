@@ -1,0 +1,24 @@
+aside.sidebar {
+  section {
+    line-height: 1.4em;
+    margin-bottom: 1.5em;
+  }
+  ul {
+    margin-bottom: 0.5em;
+    margin-left: 0;
+    padding: 0 1.5em;
+    list-style-type: disc;
+  }
+  li {
+    // list-style: none;
+    padding: .2em 0;
+    margin: 0;
+    border-bottom: #999;
+    p:last-child {
+      margin-bottom: 0;
+    }
+  }
+  a {
+    color: inherit;
+  }
+}

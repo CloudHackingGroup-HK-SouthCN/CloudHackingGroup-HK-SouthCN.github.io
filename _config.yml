@@ -1,9 +1,14 @@
+_env:
+  www_url: http://www.cnpaas.io
+  dashboard_url: http://dashboard.cnpaas.io
+  doc_url: http://doc.cnpaas.io
+
 # ----------------------- #
 #      Main Configs       #
 # ----------------------- #
 
 url: http://blog.cnpaas.io
-title: CNPaaS 博客
+title: CNPaaS
 subtitle:
 author: CNPaaS
 simple_search: https://www.google.com/search

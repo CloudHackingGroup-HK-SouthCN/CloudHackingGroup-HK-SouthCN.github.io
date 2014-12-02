@@ -1,0 +1,24 @@
+.body-inverse {
+  background: darken(#31b0d5, 35%);
+  color: desaturate(lighten(#31b0d5, 35%), 50%);
+  padding-bottom: 20px;
+
+  h1, h2, h3, h4, h5, h6 {
+    color: #fff;
+    .small, small {
+      color: #ccc;
+    }
+  }
+
+  h2 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    @media (min-width: 768px) {
+      margin-bottom: 50px;
+    }
+  }
+
+  p {
+    margin-bottom: 20px;
+  }
+}
