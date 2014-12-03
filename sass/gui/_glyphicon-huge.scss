@@ -1,0 +1,9 @@
+.glyphicon-huge {
+  display: none;
+
+  @media (min-width: 992px) {
+    color: #888;
+    display: inline;
+    font-size: 230px;
+  }
+}

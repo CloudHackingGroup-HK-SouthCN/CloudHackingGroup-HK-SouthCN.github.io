@@ -16,6 +16,9 @@ group :development do
   gem 'liquid', '~> 2.3.0'
   gem 'directory_watcher', '1.4.1'
 
+  # Templating
+  gem "slim", "~> 2.0.3"
+
   # Use thin for correct rendering in Safari in Mavericks
   # https://github.com/imathis/octopress/issues/1395
   gem 'thin', '~> 1.6.1'

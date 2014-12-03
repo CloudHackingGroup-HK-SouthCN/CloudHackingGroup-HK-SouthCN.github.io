@@ -1,0 +1,23 @@
+.user-login-true-controls {
+  &, .user-login & {
+    display: none;
+  }
+  .user-login-false & {
+    display: none;
+  }
+  .user-login-true & {
+    display: initial;
+  }
+}
+
+.user-login-false-controls {
+  &, .user-login & {
+    display: none;
+  }
+  .user-login-false & {
+    display: initial;
+  }
+  .user-login-true & {
+    display: none;
+  }
+}

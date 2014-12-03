@@ -1,0 +1,8 @@
+.link-subtle {
+  color: #999;
+
+  &:hover, &:focus {
+    color: #d7dfe2;
+    text-decoration: none;
+  }
+}

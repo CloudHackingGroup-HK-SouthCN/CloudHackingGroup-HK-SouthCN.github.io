@@ -1,5 +1,47 @@
-@import "base/utilities";
-@import "base/solarized";
-@import "base/theme";
-@import "base/typography";
-@import "base/layout";
+body {
+  padding-top: 50px;         // navbar
+  padding-bottom: 40px;      // Padding below the footer
+  position: relative;        // scrollspy
+  color: #5a5a5a;            // lighter body text 
+  background-color: #f8f8fa; // slight blue tint of white
+}
+
+h1, h2 {
+  font-weight: 200;
+  letter-spacing: 1px;
+  line-height: 1;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  @media (min-width: 768px) {
+    margin-bottom: 20px;
+    font-size: 50px;
+  }
+}
+h2 {
+  @media (min-width: 768px) {
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+}
+
+h3 {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  @media (min-width: 768px) {
+    margin-bottom: 20px;
+  }
+}
+
+p {
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 1.5;
+  @media (min-width: 768px) {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+}

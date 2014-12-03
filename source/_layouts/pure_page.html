@@ -2,39 +2,45 @@
 layout: default
 ---
 
-<div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-9">
+      {% if page.announcement == true %}
+      <div class="announcement">
+        <strong>ANNOUNCEMENT: </strong>
+        {% include announcement.html %}
+      </div>
+      {% endif %}
 
-{% if page.announcement == true %}
-<div class="announcement">
-  <strong>ANNOUNCEMENT: </strong>
-  {% include announcement.html %}
+      <article role="article">
+        {{ content }}
+        {% unless page.footer == false %}
+          <footer>
+            {% unless page.sharing == false %}
+              {% include post/sharing.html %}
+            {% endunless %}
+          </footer>
+        {% endunless %}
+      </article>
+      {% if site.disqus_short_name and page.comments == true %}
+        <section>
+          <h1>Comments</h1>
+          <div id="disqus_thread" aria-live="polite">{% include post/disqus_thread.html %}</div>
+        </section>
+      {% endif %}
+    </div>
+
+    {% unless page.sidebar == false %}
+    <div class="col-md-3">
+      <aside class="sidebar">
+        {% if site.page_asides.size %}
+          {% include_array page_asides %}
+        {% else %}
+          {% include_array default_asides %}
+        {% endif %}
+      </aside>
+    </div>
+    {% endunless %}
+
+  </div>
 </div>
-{% endif %}
-
-<article role="article">
-  {{ content }}
-  {% unless page.footer == false %}
-    <footer>
-      {% unless page.sharing == false %}
-        {% include post/sharing.html %}
-      {% endunless %}
-    </footer>
-  {% endunless %}
-</article>
-{% if site.disqus_short_name and page.comments == true %}
-  <section>
-    <h1>Comments</h1>
-    <div id="disqus_thread" aria-live="polite">{% include post/disqus_thread.html %}</div>
-  </section>
-{% endif %}
-</div>
-
-{% unless page.sidebar == false %}
-  <aside class="sidebar">
-    {% if site.page_asides.size %}
-      {% include_array page_asides %}
-    {% else %}
-      {% include_array default_asides %}
-    {% endif %}
-  </aside>
-{% endunless %}
