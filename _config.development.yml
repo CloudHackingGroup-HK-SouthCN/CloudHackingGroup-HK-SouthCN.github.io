@@ -1,0 +1,7 @@
+_env:
+  www_url: http://www.cnpaas.localhost:4567
+  dashboard_url: http://dashboard.cnpaas.localhost:3000
+  doc_url: http://doc.cnpaas.localhost:4000
+  env: development
+
+url: http://blog.cnpaas.localhost:4001

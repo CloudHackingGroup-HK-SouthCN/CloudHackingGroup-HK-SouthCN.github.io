@@ -5,13 +5,6 @@ layout: default
 <div class="container">
   <div class="row">
     <div class="col-md-9">
-      {% if page.announcement == true %}
-      <div class="announcement">
-        <strong>ANNOUNCEMENT: </strong>
-        {% include announcement.html %}
-      </div>
-      {% endif %}
-
       <article role="article">
         {{ content }}
         {% unless page.footer == false %}
@@ -22,6 +15,7 @@ layout: default
           </footer>
         {% endunless %}
       </article>
+
       {% if site.disqus_short_name and page.comments == true %}
         <section>
           <h1>Comments</h1>

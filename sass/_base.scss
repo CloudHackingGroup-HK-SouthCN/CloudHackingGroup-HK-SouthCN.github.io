@@ -2,12 +2,12 @@ body {
   padding-top: 50px;         // navbar
   padding-bottom: 40px;      // Padding below the footer
   position: relative;        // scrollspy
-  color: #5a5a5a;            // lighter body text 
+  color: #5a5a5a;            // lighter body text
   background-color: #f8f8fa; // slight blue tint of white
 }
 
 h1, h2 {
-  font-weight: 200;
+  font-weight: 400;
   letter-spacing: 1px;
   line-height: 1;
   margin-top: 30px;
@@ -17,7 +17,7 @@ h1, h2 {
 h1 {
   @media (min-width: 768px) {
     margin-bottom: 20px;
-    font-size: 50px;
+    font-size: 42px;
   }
 }
 h2 {
@@ -44,4 +44,9 @@ p {
     font-size: 18px;
     margin-bottom: 20px;
   }
+}
+
+.blog-index article+article {
+  padding-top: 0.8em;
+  background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAABCAYAAACsXeyTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAFUlEQVQIHWNIS0sr/v//PwMMDzY+ADqMahlW4J91AAAAAElFTkSuQmCC') top left repeat-x;
 }
