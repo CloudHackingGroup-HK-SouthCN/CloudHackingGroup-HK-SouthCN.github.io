@@ -34,7 +34,7 @@ email:
 # If publishing to a subdirectory as in http://site.com/project set 'root: /project'
 root: /
 timezone: Asia/Hong_Kong
-permalink: /blog/:year/:month/:day/:title/
+permalink: /blog/:title/
 source: source
 destination: public
 plugins: plugins

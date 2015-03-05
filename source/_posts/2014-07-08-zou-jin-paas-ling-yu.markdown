@@ -3,7 +3,7 @@ layout: post
 title: "走进 PaaS 领域"
 date: 2014-07-08 13:02:51 +0800
 comments: true
-categories: [PaaS, 中国, 市场]
+categories: [PaaS, CNPaaS, China]
 description: "PaaS 领域为什么变得越来越火?"
 author: Jimmy Chu
 ---

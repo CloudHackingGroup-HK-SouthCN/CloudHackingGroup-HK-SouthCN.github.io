@@ -3,7 +3,7 @@ layout: post
 title: "Fig 及 Tutum 学习小结"
 date: 2014-09-29 16:59:17 +0800
 comments: true
-categories: [PaaS, Docker]
+categories: [PaaS, Docker, Fig, Tutum]
 description: "Fig 及 Tutum 学习小结"
 author: Jimmy Chu
 ---

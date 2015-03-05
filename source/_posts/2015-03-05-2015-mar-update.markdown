@@ -1,0 +1,17 @@
+---
+layout: post
+title: "CNPaaS 3月快讯"
+date: 2015-03-05 22:34:14 +0800
+comments: true
+categories: [PaaS, CNPaaS]
+description: "CNPaaS 3月快讯"
+author: Jimmy Chu
+---
+
+自从上次十二月快讯后，我们在潜心专注打造一个更合适用户的 PaaS 后台。我们试过几个基于 Docker 技术的 PaaS / 组件，最后选用了个比成熟的 [Openshift](http://www.openshift.org/) 作为我们的后台。也正因为如此，现在我们支持不同语言，包括 PHP, Python, NodeJS, Ruby 等，用户也可直接在平台上建立数据库。现在支持 MySQL, MongoDB, 及 PostgreSQL。
+
+在我们工作清单上还有一连串的技术工作来改善优化产品，包括运行速度，用户体验，平台文档等。这些工作也会陆陆续续在三／四月份完成。如你想早一步了解 CNPaaS 的最新情况，那就别犹豫，现在赶快去 [CNPaaS](http://www.cnpaas.io) 上注册试用吧。
+
+其实，我们开发经营此平台的目的就是要帮到开发人员简化云端服务器的操作。我们也很想知道你的代码是存放在那里，如 [Github](https://github.com/), [Git@OSC](https://git.oschina.net/), [CSDN Code](https://code.csdn.net) 或只是本机? 我们下一步是根据你的代码库制作出让你更简单的部署流程。欢迎在下面留言告知。
+
+在此祝各位新春快乐，有个好头脑，好心态，好活力，迎接新一年的挑战。

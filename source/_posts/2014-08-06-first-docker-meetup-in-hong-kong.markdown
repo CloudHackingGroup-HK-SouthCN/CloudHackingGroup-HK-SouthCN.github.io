@@ -3,14 +3,14 @@ layout: post
 title: "First Docker Meetup in Hong Kong"
 date: 2014-08-06 18:11:48 +0800
 comments: true
-categories: [PaaS, Docker, Meetup, Hong Kong]
+categories: [PaaS, Docker, Meetup]
 description: ""
 author: MY Li
 ---
 
 {% img http://photos4.meetupstatic.com/photos/event/5/a/3/e/600_388163102.jpeg "Docker night with pizzas!" %}
 
-The first Docker meetup in Hong Kong was held in the evening on 15th July, 2014. More than 20 Dockers joined the event. The participants shared and discussed Docker as well as other IaaS / PaaS technologies. 
+The first Docker meetup in Hong Kong was held in the evening on 15th July, 2014. More than 20 Dockers joined the event. The participants shared and discussed Docker as well as other IaaS / PaaS technologies.
 
 ## PaaS trend and Docker
 
@@ -36,4 +36,4 @@ For those who didn’t get to join us, don’t worry. We currently plan to hold 
 
 {% img http://photos3.meetupstatic.com/photos/event/5/a/4/8/600_388163112.jpeg "Awesome Docker T-shirt" %}
 
-We look forward to seeing you at the next meetup! Don’t forget to grab an awesome Docker T-shirt! ;) 
+We look forward to seeing you at the next meetup! Don’t forget to grab an awesome Docker T-shirt! ;)
