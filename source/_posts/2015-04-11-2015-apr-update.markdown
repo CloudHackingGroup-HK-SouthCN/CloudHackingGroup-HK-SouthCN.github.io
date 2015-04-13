@@ -10,7 +10,7 @@ author: Zhizhao Lin
 
 <img class="center" src="{{root_url}}/images/posts/apr-2015.png" title="CNPaaS上线了！"></img>
 
-**我们的 PaaS 平台 [CNPaaS](http://www.cnpaas.io) 已经正式和大家见面了！**
+<span class="green">我们的 PaaS 平台 **[CNPaaS](http://cnpaas.io)** 已经正式和大家见面了!</span>
 
 大家可以 [注册](http://dashboard.cnpaas.io/accounts/sign_up) 和 [登录](http://dashboard.cnpaas.io/accounts/sign_in) CNPaaS 。
 
@@ -20,11 +20,8 @@ author: Zhizhao Lin
 
 我们接下来的目标，除了加强 CNPaaS 的运行速度和稳定性，还会开发出更多更好的方便大家一键生成的应用运行环境。
 
-为了更好地完成这些工作，非常希望你能告诉我你的代码存放在什么地方？譬如 Github, OSChina, CSDN Code, GitCafe ? 如果你的代码是公开的，**希望能告知我们你代码仓库的网址。同时也欢迎和我们分享你过往部署自己应用时遇到过什么麻烦**。
-
-你可以用我们网站上的各种联系方式和我们联系，也可以直接回这封邮件。
+为了更好地完成这些工作，希望你在下面留言告诉我们你的代码存放在什么地方？譬如 Github, OSChina, CSDN Code, GitCafe ? <span class="green">**如果你的代码是公开的，希望能告知我们你代码仓库的网址。同时也欢迎和我们分享你过往部署自己应用时遇到过什么麻烦**</span>。
 
 对了，还有一件事情：
-我们这一轮推出的**免费账号数量有限**，试用从速，不要错过！
 
-CNPaaS团队诚意敬上
+我们这一轮推出的<span class="red">**免费账号数量有限**</span>，试用从速，不要错过！
