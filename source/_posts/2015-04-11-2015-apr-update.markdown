@@ -1,0 +1,30 @@
+---
+layout: post
+title: "CNPaaS 4月快讯"
+date: 2015-04-11 22:34:14 +0800
+comments: true
+categories: [PaaS, CNPaaS]
+description: "CNPaaS 4月快讯"
+author: Zhizhao Lin
+---
+
+<img class="center" src="{{root_url}}/images/posts/apr-2015.png" title="CNPaaS上线了！"></img>
+
+**我们的 PaaS 平台 [CNPaaS](http://www.cnpaas.io) 已经正式和大家见面了！**
+
+大家可以 [注册](http://dashboard.cnpaas.io/accounts/sign_up) 和 [登录](http://dashboard.cnpaas.io/accounts/sign_in) CNPaaS 。
+
+经过我们数月以来的不懈努力，CNPaaS 已经得到进一步的完善。登录后台创建应用时，可以直接选择以下语言：PHP, Python, NodeJS, Ruby 的运行环境。并且可以在应用后台，一键生成 MySQL, MongoDB, 或者 PostgreSQL 数据库。简单易用是我们主攻的方向，我们力求做到让用户无痛操作。
+
+如果你是一名web应用开发者或者站长，你已经不需要任何的服务器运维经验，便能以最快的速度看到自己的应用上线后是什么样子。甚至连使用自己的域名访问你的应用，也是一键搞定。
+
+我们接下来的目标，除了加强 CNPaaS 的运行速度和稳定性，还会开发出更多更好的方便大家一键生成的应用运行环境。
+
+为了更好地完成这些工作，非常希望你能告诉我你的代码存放在什么地方？譬如 Github, OSChina, CSDN Code, GitCafe ? 如果你的代码是公开的，**希望能告知我们你代码仓库的网址。同时也欢迎和我们分享你过往部署自己应用时遇到过什么麻烦**。
+
+你可以用我们网站上的各种联系方式和我们联系，也可以直接回这封邮件。
+
+对了，还有一件事情：
+我们这一轮推出的**免费账号数量有限**，试用从速，不要错过！
+
+CNPaaS团队诚意敬上
