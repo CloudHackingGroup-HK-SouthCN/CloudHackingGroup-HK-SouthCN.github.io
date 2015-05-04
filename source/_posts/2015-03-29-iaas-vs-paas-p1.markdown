@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "云的抉择: “我的Web应用或网站到底应该在哪种云服务上运行？”Part 1"
+title: "云的抉择: “我的Web应用到底应该在哪种云服务上运行？”Part 1"
 date: 2015-03-29 15:34:14 +0800
 comments: true
 categories: [PaaS, CNPaaS]
