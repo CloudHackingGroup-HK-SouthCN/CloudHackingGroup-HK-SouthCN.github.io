@@ -8,6 +8,8 @@ description: "CNPaaS 5月快讯"
 author: Zhizhao Lin
 ---
 
+<img class="center" src="{{root_url}}/images/posts/may-2015.jpg" title="CNPaaS 5月 与用户书"></img>
+
 ### 服务升级
 
 1. **CNPaaS 已升级架构，新增服务器**。    
