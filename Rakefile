@@ -95,13 +95,6 @@ task :preview, [:env] do |t, args|
   [jekyllPid, compassPid, rackupPid].each { |pid| Process.wait(pid) }
 end
 
-["development"].each do |env|
-  desc "Running CNPaaS blog in #{env} environment"
-  task "server:#{env}" do
-    Rake::Task[:preview].invoke(env)
-  end
-end
-
 # usage rake new_post[my-new-post] or rake new_post['my new post'] or rake new_post (defaults to "new-post")
 desc "Begin a new post in #{source_dir}/#{posts_dir}"
 task :new_post, :title do |t, args|
@@ -412,4 +405,21 @@ desc "list tasks"
 task :list do
   puts "Tasks: #{(Rake::Task.tasks - [Rake::Task[:list]]).join(', ')}"
   puts "(type rake -T for more detail)\n\n"
+end
+
+namespace :cnpaas do
+  ALL_ENVS    = %w(development)
+  DEFAULT_ENV = "development"
+
+  ALL_ENVS.each do |env|
+    desc "Start CNPaaS Blog server for '#{env}' environment"
+    task "#{env}:start" do
+      puts "Starting CNPaaS Blog server for '#{env}' environment..."
+      Rake::Task[:preview].invoke(env)
+    end
+  end
+
+  # Shorthand
+  desc "Start CNPaaS Blog server for '#{DEFAULT_ENV}' environment (shorthand)"
+  task "start" => "#{DEFAULT_ENV}:start"
 end
