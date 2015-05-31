@@ -64,5 +64,5 @@ CNPaaS 就是为帮助开发者实现这个目的而存在的，避开从应用�
 
 
 [CNPaas]:http://www.cnpaas.io
-[Sunyanzi]:https://github.com/qex
+[Sunyanzi]:http://mop.sunyanzi.cn
 [联系我们]:http://www.cnpaas.io/contact-us/
