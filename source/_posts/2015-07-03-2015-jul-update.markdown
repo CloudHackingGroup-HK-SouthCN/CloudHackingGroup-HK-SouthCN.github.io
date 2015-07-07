@@ -1,0 +1,50 @@
+---
+layout: post
+title: "CNPaaS 7月 与用户书"
+date: 2015-07-03 10:34:14 +0800
+comments: true
+categories: [PaaS, CNPaaS]
+description: "CNPaaS 7月快讯"
+author: Zhizhao Lin
+---
+
+<img class="center" src="{{root_url}}/images/posts/jul-2015.jpg" title="CNPaaS 7月 与用户书"></img>
+
+CNPaaS 已经上线三个月，在过去三个月里非常感谢各位用户的支持。
+我们会一如既往提高我们平台的稳定性，除此之外，简单易用一直是我们不断奋斗的目标，我们接下来将会让一些UI的表现更加人性化。
+
+本月我们会依然专注于 PHP 和 HTML 环境，但是环境的升级会继续进行，务求将这两种基本环境做到极致，让大家的 PHP 和静态应用能有更好的运行表现。
+
+欢迎联系我们提出各种需求：<http://www.cnpaas.io/contact-us/> 。
+
+CNPaaS 是一个创意生产基地。我们发现除了有开发者在这里测试和上线他们的作品（如我们曾介绍的 [网址导航](http://blog.cnpaas.io/blog/featured-app-01/) 和 [MarkNote](http://blog.cnpaas.io/blog/featured-app-02/)）外，还发现有好些作者在这里部署独立blog并进行创作：
+
+* 可能是一系列的技术心得记录，如： **[Coding My Life](http://www-heidong.app.cnpaas.io) **, 一个用静态网站生成器 Hexo 生成的分享 Android 编程笔记的个人博客。（请看[相关特色应用介绍](http://blog.cnpaas.io/blog/featured-app-01/)）
+* 也可能是个人的心情记录: **[宽，就是承载无限的窄](http://skywalker.xinzhi.eu.org/archives/kuanrong.html)** 。
+* 也有热心的网友分享如何利用 CNPaaS 的平台搭建一个WIKI系统：**[将 MDwiki 部署到 CNPaaS 上](http://wiki-skypoxq9.app.cnpaas.io/#!CNPaaS.md)** 。
+
+CNPaaS 有良好的 PHP 运行环境，并且可以意见创建 MySQL 数据库 和 PHPMyAdmin 数据库管理服务，所以也能方便你在 CNPaaS 搭建 WordPress 和 Typecho 之类的基于 PHP + MySQL 的 blog 系统：
+
+* [如何部署 WordPress](http://doc.cnpaas.io/tutorial/wordpress.html)
+* [如何部署 Typecho](http://doc.cnpaas.io/tutorial/typecho.html)
+
+以上教程均有视频演示，欢迎浏览。
+
+如果你想将你的 blog 分享给我们，欢迎填写以下表格：  
+**<https://jinshuju.net/f/bftwI2>**
+
+我们会对你的 blog 进行推广和分享。
+
+最后我们想邀请已经在 CNPaaS 部署过应用但是应用不能正常打开的朋友做一下这个问卷调查：  
+**<https://jinshuju.net/f/aHIOZP>**
+
+我们将尽快和尽力解决你遇到的问题。
+
+谢谢！
+
+
+
+
+[CNPaaS Blog]:http://blog.cnpaas.io/
+[WuSiYu]:http://wusiyu.me/
+[联系我们]:http://www.cnpaas.io/contact-us/
