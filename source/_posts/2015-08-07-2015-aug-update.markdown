@@ -1,0 +1,46 @@
+---
+layout: post
+title: "CNPaaS 8月 与用户书"
+date: 2015-08-07 10:34:14 +0800
+comments: true
+categories: [PaaS, CNPaaS]
+description: "CNPaaS 8月快讯"
+author: Zhizhao Lin
+---
+
+<img class="center" src="{{root_url}}/images/posts/aug-2015.jpg" title="CNPaaS 8月 与用户书"></img>
+
+上月末，CNPaaS 和中国著名开源社区[开源中国]完成了一项重要的合作。
+**现在，你可以在 **[Git@OSChina]** 直接部署应用到 CNPaaS ，来帮助你进行项目演示了。**
+可以参考这里的教程如何部署，我们会陆续有新的文档更新。
+
+如果在使用该功能遇到任何问题，请通过我们的联系方式向我们反馈。
+
+上个月的与用户书提到了将 CNPaaS 用作文字创作，搭建独立博客的思路。
+本月果然发现有不少朋友在 CNPaaS 搭建了他们的博客或者同类型网站。其中特别想推荐以下博客给广大网友：
+
+* 用戶 天幻 的静态首页 ([ikevin.in](http://ikevin.in))
+* 及他一个模版精美内容丰富基于 [Typecho](http://doc.cnpaas.io/tutorial/typecho.html) 的 blog ([blog.ikevin.in](http://blog.ikevin.in))
+
+
+我们想借此机会，温馨提示使用 Hexo 、 Jekyll 等静态网站生成器来创建网站的朋友，
+不妨试用我们的静态应用环境。
+
+我们于上个月对该环境进行了升级并解决了一点 bug ，目前可以更快速和稳定的服务于[静态的 html 应用]。
+
+如果你使用的是 Hexo ，更可以参考这个教程：
+
+<http://doc.cnpaas.io/tutorial/hexo.html>
+
+来简化网站的部署。
+
+另外，我们的《**[中、大容器有奖问卷调查](http://www.mikecrm.com/f.php?t=N5UfKt)**》得到了广大用户的支持和踊跃参加，非常感谢！
+**我们将于本月中旬抽出获奖幸运儿**，届时敬请留意我们的[邮件通讯]和[官方 blog] 。
+
+衷心感谢！
+
+[开源中国]: http://www.oschina.net
+[Git@OSChina]: http://git.oschina.net
+[静态的 html 应用]: http://doc.cnpaas.io/tutorial/static.html
+[官方 blog]: http://blog.cnpaas.io
+[邮件通讯]: http://www.cnpaas.io/contact-us/
