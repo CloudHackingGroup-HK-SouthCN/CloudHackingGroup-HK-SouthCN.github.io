@@ -24,7 +24,7 @@ author: Zhizhao Lin
 * `qaz***456@gmail.com`
 * `be***ta@gmail.com`
 
-####二等奖10名，将免费获得半年大容器使用权限：
+####二等奖10名，将免费获得半年中容器使用权限：
 
 * `253***238@qq.com`
 * `wu.***u@hotmail.com`
