@@ -106,3 +106,6 @@ google_analytics_tracking_id: UA-34822035-10
 
 # Facebook Like
 facebook_like: false
+
+gems:
+  - jemoji

@@ -36,13 +36,19 @@ h3 {
   }
 }
 
-p {
+ul, p {
   font-size: 14px;
   font-weight: 200;
   line-height: 1.5;
   @media (min-width: 768px) {
     font-size: 18px;
     margin-bottom: 20px;
+  }
+}
+
+ul {
+  @media (min-width: 768px) {
+    font-size: 17px;
   }
 }
 
@@ -57,4 +63,19 @@ p {
 
 .red {
   color: #F00;
+}
+
+ul.original-size {
+  font-size: 100%;
+}
+
+article {
+  img {
+    max-width: 100%;
+  }
+
+  ul {
+    list-style-type: disc;
+    list-style-position: inside;
+  }
 }

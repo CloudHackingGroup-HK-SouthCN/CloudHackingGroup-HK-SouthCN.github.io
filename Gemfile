@@ -24,3 +24,4 @@ group :development do
 end
 
 gem 'sinatra', '~> 1.4.2'
+gem 'jemoji', '~> 0.5.0'
