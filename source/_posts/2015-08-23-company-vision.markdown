@@ -39,3 +39,7 @@ author: Jimmy Chu
 我们可能也会接企业项目来做，但做项目本身没太大协同效应。如果做项目也要对项目主题作筛选。
 
 最后希望能告诉市场，软件开发是一门严谨的专业，是要投资的，是不便宜的，好嘢系贵嘅！正如你不会跟外科手术医生要求说 "多快好省"，专业的软件开发有很多细节要顾及，也不是以 "多快好省" 的工厂生产指标来衡量。而第一步是先从开发人员做起，要开发人员自己先专重自己的专业，然后市场才会尊重软件开发这专业。而再退一步说，这又得从我自己，团队内写的每一行代码，每天和开发人员及用户的互动开始做起。
+
+<div class="center" style="margin-top: 30px; margin-bottom: 30px">
+  <iframe height=498 width=720 src="http://player.youku.com/embed/XNzY4Njk5Njk2" frameborder=0 allowfullscreen></iframe>
+</div>
