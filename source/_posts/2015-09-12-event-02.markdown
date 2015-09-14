@@ -1,0 +1,68 @@
+---
+layout: post
+title: "CNPaaS 创意 HTML5 页面开发大赛"
+date: 2015-09-12 10:34:14 +0800
+comments: true
+categories: [PaaS, CNPaaS]
+description: "制作一款 HTML5 移动页面应用，不限制应用类别，可以天马行空自由发挥，要求部署在 CNPaaS 平台后可以正常运行，交互流畅。"
+author: Zhizhao Lin
+---
+
+<img class="center" src="{{root_url}}/images/posts/event-02.jpg" title="CNPaaS 创意 HTML5 页面开发大赛"></img>
+
+##主题
+
+[CNPaaS](http://www.cnpaas.io) 的[静态应用环境](http://doc.cnpaas.io/tutorial/static.html)能让开发者以最快最简易的的方式上线 HTML 项目。
+
+为了让各位前端开发者一展所长，现在 CNPaaS 隆重推出 创意 HTML5 页面开发大赛。
+
+制作一款 HTML5 移动页面应用，不限制应用类别，可以天马行空自由发挥，要求部署在 CNPaaS 平台后可以正常运行，交互流畅。
+
+##奖品设置
+
+####一等奖：1名。
+* CNPaaS **大容器** 半年使用权；
+* CNPaaS **本期推荐书籍** 任选**2**本；
+* CNPaaS **第一期纪念明信片** 两套合共**8**张。 ​
+
+####二等奖：2名。  
+* CNPaaS **中容器** 半年使用权；
+* CNPaaS **本期推荐书籍** 任选**1**本；
+* CNPaaS **第一期纪念明信片** 两套合共**8**张。
+
+####三等奖：3名。
+* CNPaaS **中容器** 半年使用权；
+* CNPaaS **本期推荐书籍** 任选1本；
+* CNPaaS **第一期纪念明信片** 一套合共**4**张。
+
+####优秀奖：
+凡参与该活动并被评选为优秀作品的开发者均可获得纪念明信片**随机1张**。
+
+##本期推荐书籍
+
+* [你不知道的JavaScript（上卷）](http://www.amazon.cn/你不知道的JavaScript-美-辛普森/dp/B00W34DZ8K)
+* [JavaScript高级程序设计(第3版)](http://www.amazon.cn/JavaScript高级程序设计-泽卡斯/dp/B007OQQVMY)
+* [UX设计之道 以用户体验为中心的Web设计（第2版）](http://www.amazon.cn/UX设计之道-以用户体验为中心的Web设计-美-Russ-Unger-Carolyn-Chandler/dp/B00VJHO6XA)
+
+##参赛流程
+
+* **活动报名：**参与的用户在成功部署 HTML5 应用后，在 [这里](http://form.mikecrm.com/f.php?t=yCDRtb) 填写应用网址及个人基本资料。
+* **截止时间：** 2015年10月15日。在作品征集截止日截止上传，届时本页面将关闭报名入口。
+* **项目评选：** 在截止日之后， CNPaaS 工作人员将选出优秀作品，优秀作品将接受公开投票，以票数确定前三等奖及优秀奖名单。
+
+##作品要求
+
+* 应用基于 CNPaaS 的 [HTML5／静态应用环境](http://doc.cnpaas.io/tutorial/static.html)开发。
+* 能在手机上浏览，以 Android 或 iOS 微信能正常访问为标准。
+* 原创作品（可以基于开源代码做二次开发，但是最终的作品必须有原创部分）。
+* 遵守法律。
+
+##其他
+
+如有疑问，请[联系我们](http://www.cnpaas.io/contact-us/)。
+
+##提交参赛资料
+
+<a href="http://form.mikecrm.com/f.php?t=yCDRtb" style="display: inline-block;border-radius: 5px;color:white;font-size:14px;line-height:17px;background: #ffae00;box-shadow: 0 0 5px #666;word-wrap: break-word;padding: 10px 15px;border: 2px solid white;">点击参加</a>
+
+
