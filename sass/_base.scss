@@ -36,21 +36,24 @@ h3 {
   }
 }
 
-ul, p {
-  font-size: 14px;
-  font-weight: 200;
-  line-height: 1.5;
-  @media (min-width: 768px) {
-    font-size: 18px;
-    margin-bottom: 20px;
+.content {
+  ul, p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+    letter-spacing: .03em;
+    @media (min-width: 768px) {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+  }
+  ul {
+    @media (min-width: 768px) {
+      font-size: 17px;
+    }
   }
 }
 
-ul {
-  @media (min-width: 768px) {
-    font-size: 17px;
-  }
-}
 
 .blog-index article+article {
   padding-top: 0.8em;
@@ -63,10 +66,6 @@ ul {
 
 .red {
   color: #F00;
-}
-
-ul.original-size {
-  font-size: 100%;
 }
 
 article {

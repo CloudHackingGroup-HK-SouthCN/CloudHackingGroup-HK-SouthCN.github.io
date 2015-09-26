@@ -18,11 +18,4 @@
     background-position: 50% 50%;
     background-size: 109px 24px;
   }
-
-  .navbar-right {
-    @media (min-width: 768px) {
-      // to prevent navbar wrapping to 2nd line
-      width: 500px;
-    }
-  }
 }

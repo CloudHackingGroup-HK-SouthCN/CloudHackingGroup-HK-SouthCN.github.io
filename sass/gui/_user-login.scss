@@ -8,16 +8,37 @@
   .user-login-true & {
     display: initial;
   }
+  .user-login-loading & {
+    display: none;
+  }
 }
 
 .user-login-false-controls {
   &, .user-login & {
-    display: none;
+    display: initial;
   }
   .user-login-false & {
     display: initial;
   }
   .user-login-true & {
     display: none;
+  }
+  .user-login-loading & {
+    display: none;
+  }
+}
+
+.user-login-loading-controls {
+  &, .user-login & {
+    display: none;
+  }
+  .user-login-false & {
+    display: none;
+  }
+  .user-login-true & {
+    display: none;
+  }
+  .user-login-loading & {
+    display: initial;
   }
 }
