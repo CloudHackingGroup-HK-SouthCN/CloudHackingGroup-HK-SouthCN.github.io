@@ -5,12 +5,20 @@ $(function() {
   var setLoggedIn = function(user_slug) {
     $(".user-login-user_slug").text(user_slug);
     $(".user-login").removeClass("user-login-false").addClass("user-login-true");
-    $("a.navbar-brand").attr("href", "{{ site._env.dashboard_url }}");
   }
   var setLoggedOut = function() {
     $(".user-login").removeClass("user-login-true").addClass("user-login-false");
-    $("a.navbar-brand").attr("href", "{{ site._env.www_url }}");
   }
+
+  var startAjaxLoading = function() {
+    $(".user-login").addClass("user-login-loading");
+  }
+
+  var stopAjaxLoading = function() {
+    $(".user-login").removeClass("user-login-loading");
+  }
+
+  startAjaxLoading()
 
   $.getJSON("{{ site._env.dashboard_url }}" + "/u/current.js?callback=?", function(user) {
     if (user) {
@@ -22,7 +30,9 @@ $(function() {
       setLoggedOut();
     }
 
-  }).fail(function () {
+  }).fail(function() {
     setLoggedOut();
+  }).always(function() {
+    stopAjaxLoading();
   });
 });
