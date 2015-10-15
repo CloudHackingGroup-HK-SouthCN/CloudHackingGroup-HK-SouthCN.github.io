@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Cnpaas | CNPaaS 博客]]></title>
+  <link href="http://blog.cnpaas.io/blog/categories/cnpaas/atom.xml" rel="self"/>
+  <link href="http://blog.cnpaas.io/"/>
+  <updated>2015-10-15T08:04:02+08:00</updated>
+  <id>http://blog.cnpaas.io/</id>
+  <author>
+    <name><![CDATA[CNPaaS]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[CNPaaS 10月 与用户书]]></title>
+    <link href="http://blog.cnpaas.io/blog/2015-oct-update/"/>
+    <updated>2015-10-14T18:34:14+08:00</updated>
+    <id>http://blog.cnpaas.io/blog/2015-oct-update</id>
+    <content type="html"><![CDATA[<p><a href="http://form.mikecrm.com/f.php?t=vc1dIx"><img class="center" src="/images/posts/oct-2015.png" title="CNPaaS 10月 与用户书"></img></a></p>
+
+<p>10月份，我们会深入探讨云服务对中小企业／开发者的帮助。我们将在10月21日深圳科技寺举行一个以 “<strong>如何利用云服务助你创业</strong>” 为主题的分享会，并会由 CNPaaS 创始人 Jimmy 于次日进行为期一天的驻场免费咨询服务。</p>
+
+<p>我们有感于现在国内有不少的云服务，多得有点让人无所适从，所以希望透过这次座谈会，分享自己对各种云服务的认知了解，有助各位在创业路上走得更省力更远。</p>
+
+<p>期待到时和你见面！</p>
+
+<h2>如何利用云服务助你创业</h2>
+
+<p>创业道路不容易，要验证市场需求、组建团队、发展用户、打造产品、吸引投资……都需要创始团队殚精竭虑来完成。</p>
+
+<p>比如说现在你找准了一个市场需求，说服了你身边的小伙伴出来和你一起打拼，下一步就该是做出你产品的第一个版本了。现在有各种各样的云服务商，都打着服务互联网公司／中小团队的旗号。如能正确选好这些服务，不但能减省掉你产品的开发成本及时间，日后更可以成为你最核心的合作伙伴。</p>
+
+<p>但今天云服务这么多，哪些最适合你？你又应该怎么去选？</p>
+
+<p>如果以上所说也是你遇到过的问题，这个座谈会就是精心为你而设的。我们会综览国内现有的云服务，包括软件云（SaaS），平台云（PaaS），及基础云（IaaS），让你深入了解它们的特性，从中选取最适合你现阶段需求的云服务来搭建你们的产品。</p>
+
+<h3>座谈会</h3>
+
+<h4>流程：</h4>
+
+<ul>
+<li>18:30 - 18:45 本次活动介绍/科技寺介绍。</li>
+<li>18:45 - 19:00 公有云服务综览介绍 (主讲：CNPaaS 创始⼈ Jimmy)。</li>
+<li>19:00 - 19:30 由开源中国嘉宾代表王永和先生作软件云(SaaS)相关的分享。</li>
+<li>19:30 - 20:00 由 UCloud 售前架构师作基础云(IaaS)相关的分享。</li>
+<li>20:00 - 20:20 由 Jimmy 分享 &ldquo;能减少服务器运维工作，同时又可获得后端设置权限的服务”。</li>
+<li>20:20 - 20:30 现场问答时间。</li>
+<li>20:30 - 21:00 总结／听众⾃自由交流时间。</li>
+</ul>
+
+
+<h4>时间：</h4>
+
+<p>10月21日 晚上 18:30 - 20:30</p>
+
+<h4>地点：</h4>
+
+<p>深圳科技寺
+深圳市福田区福强路3030号福田体育公园
+新媒体产业园22楼</p>
+
+<p><img class="center" src="/images/posts/kjs-map.jpg" title="科技寺地图"></img></p>
+
+<p>另外，我们之后两天也会在科技寺设立一对一的咨询时间，可具体为你们各团队现在的创业阶段、产品成熟度、用户流量等，作出一套极具性价比的后台架构方案建议。有时甚至不一定需要自己去搭建后台，找个合适的云服务商，可能就已经能达到你要的产品效果。</p>
+
+<h3>一对一的云服务咨询</h3>
+
+<p>每次不长于 40 分钟</p>
+
+<h4>时间：</h4>
+
+<p>10月22 － 23日 早上 09:30 - 晚上 19:00</p>
+
+<h4>地点：</h4>
+
+<p>深圳科技寺</p>
+
+<h3>主办方及讲员信息</h3>
+
+<h4>讲员：</h4>
+
+<ul>
+<li><p><strong>Jimmy</strong>：CNPaaS 创始人。<strong>CNPaaS</strong> (<a href="http://www.cnpaas.io">http://www.cnpaas.io</a>) 是一个针对互联网公司及中小团队而生的应用引擎。用户只需要上传他们的应用代码，鼠标一点一拉，就能生成出应用后端，建立数据库，部署好应用。不再需要为安装操作系统，安装该应用程序语言库，数据库等而烦恼。</p></li>
+<li><p><strong>王永和</strong>：开源中国首席运营官、恒拓开源副总。<strong>开源中国社区</strong>，国内最大的开源技术社区，社区 注册会员200多万程序员，提供开源软件库、开源软件资讯、博客和技术问答等内容，为开发者提供一个发现、使用并交流的平 台。依托于社区的基础，构建了四大业务：社区（<a href="http://oschina.net">http://oschina.net</a>）；招聘（<a href="http://job.oschina.net">http://job.oschina.net</a>） 码云（<a href="http://git.oschina.net">http://git.oschina.net</a>）以及众包（<a href="http://zb.oschina.net">http://zb.oschina.net</a>）。</p></li>
+<li><p><strong>UCloud 售前架构师</strong>。<strong>UCloud</strong>（上海优刻得云计算技术有限公司）是国内顶尖的IaaS（基础云计算）服务商，自主研发并提供计算资源、存储资源、网络资源等企业必需的基础IT架构服务，并深入了解互联网、移动互联网、传统企业不同场景下的业务需求，提供一系列的行业解决方案。</p></li>
+</ul>
+
+
+<h2>报名参加本活动：</h2>
+
+<p><a href="http://form.mikecrm.com/f.php?t=vc1dIx" style="display: inline-block;border-radius: 5px;color:white;font-size:14px;line-height:17px;background: #ffae00;box-shadow: 0 0 5px #666;word-wrap: break-word;padding: 10px 15px;border: 2px solid white;">点击报名</a></p>
+
+<p>最后提一提， CNPaaS 开了微信公众号 <em>（微信号：CNPaaS-public）</em> ，欢迎扫一扫关注：</p>
+
+<p><img class="center" src="/images/posts/wx-qrcode.jpg" title="微信公众号"></img></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[中、大容器有奖活动结果公布]]></title>
+    <link href="http://blog.cnpaas.io/blog/event-01-result/"/>
+    <updated>2015-08-16T10:34:14+08:00</updated>
+    <id>http://blog.cnpaas.io/blog/event-01-result</id>
+    <content type="html"><![CDATA[<p><img class="center" src="/images/posts/event-01-result.jpg" title="中、大容器有奖问卷结果揭晓"></img></p>
+
+<p>我们在<a href="http://blog.cnpaas.io/blog/2015-jul-update/">七月份的与用户书</a>里发布了一个活动：<a href="http://www.mikecrm.com/f.php?t=N5UfKt">CNPaaS 付费方案有奖问卷调查</a>，非常感谢各位网友的热烈支持和踊跃参加！</p>
+
+<p>各位宝贵的意见，这使我们能够更好地打造中容器和大容器，为更多 web 应用开发者提供更优质的服务。</p>
+
+<h2>我们针对参与用户，随机抽出以下获奖名单：</h2>
+
+<h4>一等奖5名，将免费获得半年大容器使用权限：</h4>
+
+<ul>
+<li><code>ran*****hao@qq.com</code></li>
+<li><code>344***237@qq.com</code></li>
+<li><code>host@os***us.com</code></li>
+<li><code>qaz***456@gmail.com</code></li>
+<li><code>be***ta@gmail.com</code></li>
+</ul>
+
+
+<h4>二等奖10名，将免费获得半年中容器使用权限：</h4>
+
+<ul>
+<li><code>253***238@qq.com</code></li>
+<li><code>wu.***u@hotmail.com</code></li>
+<li><code>sur***ids@gmail.com</code></li>
+<li><code>whz***mjm@yeah.net</code></li>
+<li><code>fun***858@163.com</code></li>
+<li><code>807***494@qq.com</code></li>
+<li><code>fene***in@163.com</code></li>
+<li><code>502***901@qq.com</code></li>
+<li><code>xma***ker@gmail.com</code></li>
+<li><code>cha*****ilk@gmail.com</code></li>
+</ul>
+
+
+<p>中容器和大容器预计会在9月份上线，届时将通过上述电子邮件单独通知，为尊重获奖者隐私，上述获奖名单的邮箱局部用 <code>*</code> 隐藏，请疑似自己邮箱的用户特别留意。</p>
+
+<p>衷心感谢！</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[特色应用：Skimige Ran 的博客]]></title>
+    <link href="http://blog.cnpaas.io/blog/featured-app-04/"/>
+    <updated>2015-08-14T10:34:14+08:00</updated>
+    <id>http://blog.cnpaas.io/blog/featured-app-04</id>
+    <content type="html"><![CDATA[<p>这期的特色用户我们想介绍一位网友的两个版本的博客。</p>
+
+<p>这位网友叫 Skimige Ran 。开始的时候在 <a href="http://www.cnpaas.io">CNPaaS</a> 的 <a href="http://doc.cnpaas.io/usage/php.html">PHP 环境</a>下，用我们介绍过的 <a href="http://doc.cnpaas.io/tutorial/typecho.html">Typecho</a> ，搭建了用于记录生活点滴一个精美的 blog ：</p>
+
+<p><img class="center" src="/images/posts/fa04a.jpg" title="blog.ikevin.in in Typecho"></img></p>
+
+<p><a href="http://t-ranjianghao.app.cnpaas.io">http://t-ranjianghao.app.cnpaas.io</a></p>
+
+<p>并用<a href="http://doc.cnpaas.io/usage/custom-domains.html">自定义网址</a>功能，把该应用绑定到自己的独立域名上。</p>
+
+<p>后来 Skimige Ran 改用了<a href="http://www.inkpaper.io">纸小墨</a>这个使用GO语言编写的静态博客构建工具，来构建自己的新 blog 。这个工具的原理跟 <a href="http://hexo.io">Hexo</a> 类似，可以将 <a href="http://daringfireball.net/projects/markdown/">MarkDown</a> 格式的文档转成完整的 html 网站。</p>
+
+<p>Skimige Ran 为此在 CNPaaS 创建了一个<a href="http://doc.cnpaas.io/tutorial/static.html">静态网站类型</a>新的应用，并将新 blog 部署到上面：</p>
+
+<p><img class="center" src="/images/posts/fa04b.jpg" title="www.ikevin.in"></img></p>
+
+<p>然后还是通过 CNPaaS 应用后台的自定义网址功能，轻松地将给这个新 blog 设定了一个顶级域名：</p>
+
+<p><strong><a href="http://ikevin.in">http://ikevin.in</a></strong></p>
+
+<p>原本该域名是用于之前创建的 Typecho blog 上的，在试用新的工具构建网站后，他在旧 blog 的 CNPaaS 应用后台里，重设了这样一个自定义网址：</p>
+
+<p><strong><a href="http://blog.ikevin.in">http://blog.ikevin.in</a></strong></p>
+
+<p>就这样，Skimige Ran 很方便和轻松随意地管理着自己的两个网站。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[CNPaaS 8月 与用户书]]></title>
+    <link href="http://blog.cnpaas.io/blog/2015-aug-update/"/>
+    <updated>2015-08-07T10:34:14+08:00</updated>
+    <id>http://blog.cnpaas.io/blog/2015-aug-update</id>
+    <content type="html"><![CDATA[<p><img class="center" src="/images/posts/aug-2015.jpg" title="CNPaaS 8月 与用户书"></img></p>
+
+<p>上月末，CNPaaS 和中国著名开源社区<a href="http://www.oschina.net">开源中国</a>完成了一项重要的合作。
+<strong>现在，你可以在 </strong><a href="http://git.oschina.net">Git@OSChina</a><strong> 直接部署应用到 CNPaaS ，来帮助你进行项目演示了。</strong>
+可以参考这里的教程如何部署，我们会陆续有新的文档更新。</p>
+
+<p>如果在使用该功能遇到任何问题，请通过我们的联系方式向我们反馈。</p>
+
+<p>上个月的与用户书提到了将 CNPaaS 用作文字创作，搭建独立博客的思路。
+本月果然发现有不少朋友在 CNPaaS 搭建了他们的博客或者同类型网站。其中特别想推荐以下博客给广大网友：</p>
+
+<ul>
+<li>用戶 天幻 的静态首页 (<a href="http://ikevin.in">ikevin.in</a>)</li>
+<li>及他一个模版精美内容丰富基于 <a href="http://doc.cnpaas.io/tutorial/typecho.html">Typecho</a> 的 blog (<a href="http://blog.ikevin.in">blog.ikevin.in</a>)</li>
+</ul>
+
+
+<p>我们想借此机会，温馨提示使用 Hexo 、 Jekyll 等静态网站生成器来创建网站的朋友，
+不妨试用我们的静态应用环境。</p>
+
+<p>我们于上个月对该环境进行了升级并解决了一点 bug ，目前可以更快速和稳定的服务于<a href="http://doc.cnpaas.io/tutorial/static.html">静态的 html 应用</a>。</p>
+
+<p>如果你使用的是 Hexo ，更可以参考这个教程：</p>
+
+<p><a href="http://doc.cnpaas.io/tutorial/hexo.html">http://doc.cnpaas.io/tutorial/hexo.html</a></p>
+
+<p>来简化网站的部署。</p>
+
+<p>另外，我们的《<strong><a href="http://www.mikecrm.com/f.php?t=N5UfKt">中、大容器有奖问卷调查</a></strong>》得到了广大用户的支持和踊跃参加，非常感谢！
+<strong>我们将于本月中旬抽出获奖幸运儿</strong>，届时敬请留意我们的<a href="http://www.cnpaas.io/contact-us/">邮件通讯</a>和<a href="http://blog.cnpaas.io">官方 blog</a> 。</p>
+
+<p>衷心感谢！</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[CNPaaS 7月 与用户书]]></title>
+    <link href="http://blog.cnpaas.io/blog/2015-jul-update/"/>
+    <updated>2015-07-03T10:34:14+08:00</updated>
+    <id>http://blog.cnpaas.io/blog/2015-jul-update</id>
+    <content type="html"><![CDATA[<p><img class="center" src="/images/posts/jul-2015.jpg" title="CNPaaS 7月 与用户书"></img></p>
+
+<p>CNPaaS 已经上线三个月，在过去三个月里非常感谢各位用户的支持。
+我们会一如既往提高我们平台的稳定性，除此之外，简单易用一直是我们不断奋斗的目标，我们接下来将会让一些 UI 的表现更加人性化。</p>
+
+<p>本月我们会依然专注于 PHP 和 HTML 环境，但是环境的升级会继续进行，务求将这两种基本环境做到极致，让大家的 PHP 和静态应用能有更好的运行表现。</p>
+
+<p>欢迎联系我们提出各种需求：<a href="http://www.cnpaas.io/contact-us/">http://www.cnpaas.io/contact-us/</a> 。</p>
+
+<p>CNPaaS 是一个创意生产基地。我们发现除了有开发者在这里测试和上线他们的作品（如我们曾介绍的 <a href="http://blog.cnpaas.io/blog/featured-app-01/">网址导航</a> 和 <a href="http://blog.cnpaas.io/blog/featured-app-02/">MarkNote</a>）外，还发现有好些作者在这里部署独立blog并进行创作：</p>
+
+<ul>
+<li>可能是一系列的技术心得记录，如： <strong><a href="http://www-heidong.app.cnpaas.io">Coding My Life</a> </strong>, 一个用静态网站生成器 Hexo 生成的分享 Android 编程笔记的个人博客。（请看<a href="http://blog.cnpaas.io/blog/featured-app-03/">相关特色应用介绍</a>）</li>
+<li>也可能是分享电影的个人博客: <strong> <a href="http://ghosthim.ga/">Lee Young Je</a> </strong>。</li>
+<li>也有热心的网友分享如何利用 CNPaaS 的平台搭建一个 WIKI 系统：<strong><a href="http://wiki-skypoxq9.app.cnpaas.io/#!CNPaaS.md">将 MDwiki 部署到 CNPaaS 上</a></strong> 。</li>
+</ul>
+
+
+<p>CNPaaS 有良好的 PHP 运行环境，并且可以一键创建 MySQL 数据库 和 PHPMyAdmin 数据库管理服务，所以也能方便你在 CNPaaS 搭建 WordPress 和 Typecho 之类的基于 PHP + MySQL 的 blog 系统：</p>
+
+<ul>
+<li><a href="http://doc.cnpaas.io/tutorial/wordpress.html">如何部署 WordPress</a></li>
+<li><a href="http://doc.cnpaas.io/tutorial/typecho.html">如何部署 Typecho</a></li>
+</ul>
+
+
+<p>以上教程均有视频演示，欢迎浏览。</p>
+
+<p>如果你想将你的 blog 分享给我们，欢迎填写以下表格：<br/>
+<strong><a href="https://jinshuju.net/f/bftwI2">https://jinshuju.net/f/bftwI2</a></strong></p>
+
+<p>我们会对你的 blog 进行推广和分享。</p>
+
+<h4>One More Thing:</h4>
+
+<p>最后我们想提醒一下我们本月的一个活动：
+CNPaaS 将推出中容器（512MB）和大容器（1GB），希望能了解您的需求和意愿，请帮忙做一下这个问卷：<br/>
+<strong><a href="http://www.mikecrm.com/f.php?t=N5UfKt">http://www.mikecrm.com/f.php?t=N5UfKt</a></strong></p>
+
+<p><strong>我们将从参与这个问卷调查的朋友，抽出15名获奖者，赢取半年的中容器（价值510元）和大容器（价值810元）使用权限（其中中容器获得者10名，大容器获得者5名）。</strong></p>
+
+<p>衷心感谢！</p>
+
+<p>CNPaaS 团队诚意敬上</p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: App | CNPaaS 博客]]></title>
+  <link href="http://blog.cnpaas.io/blog/categories/app/atom.xml" rel="self"/>
+  <link href="http://blog.cnpaas.io/"/>
+  <updated>2015-10-15T08:04:02+08:00</updated>
+  <id>http://blog.cnpaas.io/</id>
+  <author>
+    <name><![CDATA[CNPaaS]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[特色应用：Skimige Ran 的博客]]></title>
+    <link href="http://blog.cnpaas.io/blog/featured-app-04/"/>
+    <updated>2015-08-14T10:34:14+08:00</updated>
+    <id>http://blog.cnpaas.io/blog/featured-app-04</id>
+    <content type="html"><![CDATA[<p>这期的特色用户我们想介绍一位网友的两个版本的博客。</p>
+
+<p>这位网友叫 Skimige Ran 。开始的时候在 <a href="http://www.cnpaas.io">CNPaaS</a> 的 <a href="http://doc.cnpaas.io/usage/php.html">PHP 环境</a>下，用我们介绍过的 <a href="http://doc.cnpaas.io/tutorial/typecho.html">Typecho</a> ，搭建了用于记录生活点滴一个精美的 blog ：</p>
+
+<p><img class="center" src="/images/posts/fa04a.jpg" title="blog.ikevin.in in Typecho"></img></p>
+
+<p><a href="http://t-ranjianghao.app.cnpaas.io">http://t-ranjianghao.app.cnpaas.io</a></p>
+
+<p>并用<a href="http://doc.cnpaas.io/usage/custom-domains.html">自定义网址</a>功能，把该应用绑定到自己的独立域名上。</p>
+
+<p>后来 Skimige Ran 改用了<a href="http://www.inkpaper.io">纸小墨</a>这个使用GO语言编写的静态博客构建工具，来构建自己的新 blog 。这个工具的原理跟 <a href="http://hexo.io">Hexo</a> 类似，可以将 <a href="http://daringfireball.net/projects/markdown/">MarkDown</a> 格式的文档转成完整的 html 网站。</p>
+
+<p>Skimige Ran 为此在 CNPaaS 创建了一个<a href="http://doc.cnpaas.io/tutorial/static.html">静态网站类型</a>新的应用，并将新 blog 部署到上面：</p>
+
+<p><img class="center" src="/images/posts/fa04b.jpg" title="www.ikevin.in"></img></p>
+
+<p>然后还是通过 CNPaaS 应用后台的自定义网址功能，轻松地将给这个新 blog 设定了一个顶级域名：</p>
+
+<p><strong><a href="http://ikevin.in">http://ikevin.in</a></strong></p>
+
+<p>原本该域名是用于之前创建的 Typecho blog 上的，在试用新的工具构建网站后，他在旧 blog 的 CNPaaS 应用后台里，重设了这样一个自定义网址：</p>
+
+<p><strong><a href="http://blog.ikevin.in">http://blog.ikevin.in</a></strong></p>
+
+<p>就这样，Skimige Ran 很方便和轻松随意地管理着自己的两个网站。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[特色应用：Coding My Life]]></title>
+    <link href="http://blog.cnpaas.io/blog/featured-app-03/"/>
+    <updated>2015-07-02T10:34:14+08:00</updated>
+    <id>http://blog.cnpaas.io/blog/featured-app-03</id>
+    <content type="html"><![CDATA[<p>我们惊喜地发现已经有人在 <a href="http://www.cnpaas.io">CNPaaS</a> 上部署他们的独立blog。其中就有一个叫 <strong>Coding My Life</strong> 的技术博客：<br/>
+<strong><a href="http://www-heidong.app.cnpaas.io">http://www-heidong.app.cnpaas.io</a></strong></p>
+
+<p><img class="center" src="/images/posts/featured-app-03.png" title="Coding My Life"></img></p>
+
+<p>作者在上边记录了一些 Android 开发心得。</p>
+
+<p>该博客使用了 <a href="http://hexo.io">Hexo</a> 作为静态网站生成器，模版是基于 <a href="http://getbootstrap.com">Bootstrap</a> 的开源模版 <a href="https://github.com/wzpan/hexo-theme-freemind/">freemind</a> 。</p>
+
+<p>使用 Hexo 之类的静态网站生成器，你可以专注于用我们上次介绍 <strong><a href="http://blog.cnpaas.io/blog/featured-app-02/">MarkNote</a></strong> 这款特色应用的时候提到过的 <a href="http://daringfireball.net/projects/markdown/">MarkDown</a> 这种格式专心进行协作，然后生成静态的 html 网站。</p>
+
+<p>想了解更多的静态网站生成器，不妨看看这个列表：<br/>
+<a href="http://www.staticgen.com">http://www.staticgen.com</a></p>
+
+<p>在你生成了静态的 html 网站，就可以参考我们的 <strong><a href="http://doc.cnpaas.io/tutorial/static.html">静态网站部署文档</a></strong> 轻松地把你创作的内容通过互联网和更多的人分享了。</p>
+
+<p>除了静态网页的形式，你当然还可以利用我们的 <a href="http://doc.cnpaas.io/usage/php.html">PHP环境</a> 和一键创建数据库的功能搭建基于 PHP + MySQL 的blog。欢迎参考：</p>
+
+<ul>
+<li><a href="http://doc.cnpaas.io/tutorial/wordpress.html">如何部署 WordPress</a></li>
+<li><a href="http://doc.cnpaas.io/tutorial/typecho.html">如何部署 Typecho</a></li>
+</ul>
+
+
+<p>以上教程有视频哟！</p>
+
+<p>如果你想将你的 blog 分享给我们，欢迎填写以下表格：<br/>
+<a href="https://jinshuju.net/f/bftwI2">https://jinshuju.net/f/bftwI2</a></p>
+
+<p>我们会对你的 blog 进行推广和分享。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[特色应用：MarkNote]]></title>
+    <link href="http://blog.cnpaas.io/blog/featured-app-02/"/>
+    <updated>2015-05-04T10:34:14+08:00</updated>
+    <id>http://blog.cnpaas.io/blog/featured-app-02</id>
+    <content type="html"><![CDATA[<p><a href="http://www.cnpaas.io">CNPaaS</a> 上越来越多有趣的应用啦，除了上次分享的 <strong><a href="http://blog.cnpaas.io/blog/featured-app-01/">可能是世界上最小的导航网站</a></strong> 外，还有一个极简又实用的轻量级云记事本系统 <strong>MarkNote</strong>。</p>
+
+<p><img class="center" src="/images/posts/featured-app-02.png" title="MarkNote"></img></p>
+
+<p>这个应用的网址是：<br/>
+<a href="http://note-wusiyu.app.cnpaas.io">http://note-wusiyu.app.cnpaas.io</a></p>
+
+<p>MarkNote 是网友 <a href="http://wusiyu.me/">WuSiYu</a> 的原创开源 PHP 作品。支持 <a href="http://daringfireball.net/projects/markdown/">MarkDown</a> 和纯文本两种格式，并且可以一键生成 HTML 和加密，也可以很方便地下载编辑好的文件。还有一个特点是，保存文档后点击“在其他设备上访问”的按钮，会出现该文档的ID和二维码，这样就可以轻松地在 iPad 或手机，还有其他电脑上继续完成未写好的文档，也方便分享给其他人进行协作。</p>
+
+<p>这是一个非常趁手的写作工具。这篇blog就是用它完成的。</p>
+
+<p>关于这个应用，WuSiYu 的 blog 有<strong><a href="http://wusiyu.me/marknote%E8%BD%BB%E9%87%8F%E7%BA%A7%E4%BA%91%E8%AE%B0%E4%BA%8B%E6%9C%AC%E7%B3%BB%E7%BB%9F/">详细介绍</a></strong>，不妨去看看。</p>
+
+<p>如果你也在 CNPaaS 创建了属于你的演示项目，不妨 <a href="http://www.cnpaas.io/contact-us/">联系我们</a> ，我们会分享给更多的朋友。</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[特色应用：可能是世界上最小的导航网站]]></title>
+    <link href="http://blog.cnpaas.io/blog/featured-app-01/"/>
+    <updated>2015-05-01T14:34:14+08:00</updated>
+    <id>http://blog.cnpaas.io/blog/featured-app-01</id>
+    <content type="html"><![CDATA[<p><a href="http://www.cnpaas.io">CNPaaS</a> 上线后，平台上迎来了一个简洁轻巧而实用的应用，它有一个有趣的名字：<br/>
+<strong>可能是世界上最小的导航网站</strong>。</p>
+
+<p><img class="center" src="/images/posts/featured-app-01.png" title="可能是世界上最小的导航网站"></img></p>
+
+<p>这个应用的网址是：<br/>
+<a href="http://pages-sunyanzi.app.cnpaas.io">http://pages-sunyanzi.app.cnpaas.io</a></p>
+
+<p>同时它使用了 CNPaaS <a href="http://doc.cnpaas.io/usage/custom-domains.html">自定义网址</a>功能，给这个应用关联了一个顶级域名：  <br/>
+<strong><a href="http://tok4.com">http://tok4.com</a></strong></p>
+
+<p>整个应用只有一个模拟键盘的界面，每个键可以增加或删除一个对应的网址，打开应用之后，直接敲自己的键盘，就能打开对应的网站，而且不会因为浏览器的关闭而失效。实用、方便。简单得甚至完全不需要说明书。</p>
+
+<p>把它用作网址导航，把常用的网站关联好，每次上网先打开这个网页，便不需要总是要到地址栏去输入网址那么麻烦了。</p>
+
+<p>该应用源于作者 <a href="http://mop.sunyanzi.cn">Sunyanzi</a> 的网友三年前的<a href="https://v2ex.com/t/32295">一个创意</a>。</p>
+
+<p>可是三年来这个创意一直没有人理会，于是 Sunyanzi 就自己动手实现出来了。</p>
+
+<p>这个应用只是用了最基础的前端技术：HTML + CSS + Javasript。<br/>
+代码在 Github 开源：<br/>
+<a href="https://github.com/qex/keystart">https://github.com/qex/keystart</a><br/>
+开源协议是 WTFPL ，也就是拿来怎么处理都行。</p>
+
+<p>关于这个应用，Sunyanzi 如是说：</p>
+
+<ul>
+<li>“所有内容都是存在本地的 … 不用担心隐私泄露 … ”</li>
+<li>“我在一开始写的时候本来是用 localStorage 的 … 后来为了兼容才改成 cookie … “</li>
+<li>“这个东西的核心是简洁 … 以及不需要任何说明性文字的一目了然 … 我不太希望它变得臃肿 … ”</li>
+</ul>
+
+
+<p>如果你每次上网都有些网站是必开的话，不妨用它来管理这些网址，并设置成你的浏览器启动页面。</p>
+
+<p>关于这个应用，你可以在 <a href="https://v2ex.com/t/183945">V2EX这个帖子里</a> 了解到更多。</p>
+
+<p>有了创意，就尽可能马上动手去做，用最快捷的方法把演示做出来。</p>
+
+<p>CNPaaS 就是为帮助开发者实现这个目的而存在的，避开从应用开发到可以演示中间的许多繁杂而头痛的环节。</p>
+
+<p>如果对这个应用的键盘设计感兴趣，或许你还可以看看以下两个演示：</p>
+
+<ol>
+<li><p><strong>Apple Keyboard via CSS3</strong>  <br/>
+<a href="http://html-quasimo.app.cnpaas.io/apple-keyboard-via-css3.html">http://html-quasimo.app.cnpaas.io/apple-keyboard-via-css3.html</a><br/>
+一个用纯CSS3来模拟苹果蓝牙键盘的演示，代码来自<a href="http://cssdeck.com/labs/apple-keyboard-via-css3">CSSDECK</a>。</p></li>
+<li><p><strong>Pure CSS Happy Hacking Keyboard</strong> <br/>
+<a href="http://html-quasimo.app.cnpaas.io/pure-css-hhkb.html">http://html-quasimo.app.cnpaas.io/pure-css-hhkb.html</a><br/>
+一个用纯CSS来模拟HHKB的演示，代码来自<a href="http://codepen.io/dehash/pen/nEJyf">CODEPEN</a>。</p></li>
+</ol>
+
+
+<p>要在线上创建类似以上两个演示的方法非常简单，可以参考 CNPaaS 关于 <a href="http://doc.cnpaas.io/tutorial/static.html">如何部署静态网站</a> 的文档，在后台创建 “静态网页/HTML5” 类型的应用后，用 git 根据应用的git地址 把默认页面的代码 clone 下来，然后改写 public 目录里的 index.html 或者新建 html 文件即可，完成后用 git 命令 commit 然后：  <br/>
+<code>git push origin master</code>
+即可。</p>
+
+<p>如果你也在 CNPaaS 创建了属于你的演示项目，不妨 <a href="http://www.cnpaas.io/contact-us/">联系我们</a> ，我们会分享给更多的朋友。</p>
+]]></content>
+  </entry>
+  
+</feed>
