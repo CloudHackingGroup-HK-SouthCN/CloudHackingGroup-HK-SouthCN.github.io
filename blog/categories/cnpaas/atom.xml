@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Cnpaas | CNPaaS 博客]]></title>
   <link href="http://blog.cnpaas.io/blog/categories/cnpaas/atom.xml" rel="self"/>
   <link href="http://blog.cnpaas.io/"/>
-  <updated>2015-10-15T08:04:02+08:00</updated>
+  <updated>2015-10-24T10:50:48+08:00</updated>
   <id>http://blog.cnpaas.io/</id>
   <author>
     <name><![CDATA[CNPaaS]]></name>
@@ -12,6 +12,86 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[如何利用云服务助你创业 活动回顾]]></title>
+    <link href="http://blog.cnpaas.io/blog/2015-oct-activity/"/>
+    <updated>2015-10-23T18:34:14+08:00</updated>
+    <id>http://blog.cnpaas.io/blog/2015-oct-activity</id>
+    <content type="html"><![CDATA[<p><img class="center" src="/images/posts/oct-event-main.jpg" title="如何利用云服务助你创业"></img></p>
+
+<p>10月21日晚我们在深圳科技寺的“<a href="http://blog.cnpaas.io/blog/2015-oct-update/">如何利用云服务助你创业</a>”已经圆满结束。</p>
+
+<p><img class="center" src="/images/posts/oct-event-kjs.jpg" title="科技寺"></img></p>
+
+<p>本次活动非常感谢深圳<a href="http://www.kejisi.com">科技寺</a>提供的宝贵场地。同时也十分感谢来自<a href="http://www.oschina.net">开源中国</a>的嘉宾代表周凯先生和来自<a href="https://www.ucloud.cn">UCloud</a>的嘉宾代表邱良杰先生的精彩分享和鼎力支持。</p>
+
+<h2>综览云服务</h2>
+
+<p><img class="center" src="/images/posts/oct-event-jimmy-p1.jpg" title="综览云服务"></img></p>
+
+<p>活动期间，CNPaaS 创始人 Jimmy 在未讲云计算之前先谈了创业是怎么回事，从天时、地利、人和几个角度出发指出创业的核心问题以及创业团队和用户之间的关系，并且分享了对“微观调研”的看法纵览了当今的云服务，给大家普及了 IaaS、PaaS 和 SaaS 的基础概念，并且由于不同听众有不同意见而引发热烈讨论。</p>
+
+<h2>专题分享1: 开源中国</h2>
+
+<p>然后是开源中国的工程师周凯先生和大家分享了“<a href="http://git.oschina.net">码云</a>”平台，包括了社会化代码托管协作平台 Git@OSC、团队协作工具 Team@OSC、代码质量分析服务 Sonar 以及跟 CNPaaS 合作的项目演示平台 <a href="http://git.oschina.net/paas_osc">PaaS@OSC</a>。其中 Git@OSC 无论是公有还是私有代码，1000个项目内免费；可以用 git 和 svn 操作同一个项目，解决一个团队不同代码管理习惯的开发者的协作问题。</p>
+
+<p><img class="center" src="/images/posts/oct-event-osc-p1.jpg" title="OSChina分享"></img></p>
+
+<p>码云对于创业团队的意义有：通过免费的 Git@OSC 和 Team@OSC 服务节省团队的代码管理和协作的成本，通过 Sonar 减少代码债务，通过平台上现有的大量开源项目来节省开发成本，而且还有免费的技术支持。</p>
+
+<p>另外周凯还分享了机房迁移过程的数据恢复过程以及应对流量攻击和 CC 攻击的防御经验。</p>
+
+<p><img class="center" src="/images/posts/oct-event-osc-p2.jpg" title="OSChina分享"></img>
+<small>周凯正在答听众问</small></p>
+
+<h2>专题分享2: UCloud</h2>
+
+<p>接下来是 UCloud 架构师邱良杰先生给大家作关于 IaaS 的分享，他的主题是《公有云，互联网创业的技术虫洞》。</p>
+
+<p><img class="center" src="/images/posts/oct-event-ucloud-p1.jpg" title="UCloud分享"></img></p>
+
+<p>邱先生先跟大家分析了运维所面临的挑战以及云计算服务是如何解决运维人员在工作中遇到的问题的。传统的运维工作包括机房、系统、架构、安全等各个方面，并且里边可能遇到各种被无限放大的问题，而云计算把运维工作简化为注册、登录、创建、升级、上线、部署和扩展这样的高效管理流程。</p>
+
+<p><img class="center" src="/images/posts/oct-event-ucloud-p2.jpg" title="OSChina分享"></img>
+<small>邱良杰正在答听众问</small></p>
+
+<p>然后邱先生还给大家分析了云计算的框架，以及 UCloud 的各种服务，以及细致分享采用 UCloud 服务的一个游戏客户案例。</p>
+
+<h2>专题分享3: CNPaaS</h2>
+
+<p>最后一个作专题分享的是我们 CNPaaS 的 Jimmy，他向大家分享了 CNPaaS 为应对用户和客户面临种种运维问题提出的解决方案，包括：</p>
+
+<ul>
+<li>平台云服务 (PaaS)</li>
+<li>上传代码，后台自动搞定</li>
+<li>点击创建数据库，无须手动安装</li>
+<li>按流量自动拓展</li>
+<li>数据备份及回复</li>
+<li>后端运维监控和应用数据</li>
+<li>在中国大陆以内及以外的数据中心 / CDN (合作伙伴)</li>
+</ul>
+
+
+<p>目前还未完全实现，CNPaaS 正朝这些方向努力。</p>
+
+<p><img class="center" src="/images/posts/oct-event-jimmy-p2.jpg" title="OSChina分享"></img></p>
+
+<p>然后 Jimmy 在介绍 CNPaaS 的现有服务、应用案例以及用户反馈之余，还特别提到组建 CNPaaS 的初衷：由于我们本身就是开发人员，想专注于开发的本人而不是服务器运维工作，所以也希望更多的开发者能专注于开发，于是我们做这个平台实际是替他们完成更大的运维工作。对此感兴趣的朋友，不妨看看<a href="http://v.youku.com/v_show/id_XODA5NDc5MzA0.html">这个视频</a>以及我们的<a href="http://www.cnpaas.io/vision/">公司愿景</a>。</p>
+
+<p><img class="center" src="/images/posts/oct-event-jimmy-p3.jpg" title="CNPaaS分享"></img>
+<img class="center" src="/images/posts/oct-event-jimmy-p4.jpg" title="CNPaaS分享"></img>
+<small>Jimmy 正在和听众交流</small></p>
+
+<h2>后记</h2>
+
+<p>每个专题分享过后，很多听众都积极踊跃举手发言提问，甚至提出和讲者截然不同的意见，大家彼此切磋，互相学习，共同进步。</p>
+
+<p>在活动结束之后，进入了自由讨论时间，听众与听众、听众与讲者、讲者与讲者之间也进行了深入的交流。里面就包括了我们<a href="http://blog.cnpaas.io/blog/featured-app-01/">特色应用</a>的作者。能和用户零距离接触，聆听到不少意见和建议，我们获益良多。</p>
+
+<p>此次活动也有一些不足，我们期待下一次的活动可以办得更好。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[CNPaaS 10月 与用户书]]></title>
@@ -214,58 +294,6 @@
 <strong>我们将于本月中旬抽出获奖幸运儿</strong>，届时敬请留意我们的<a href="http://www.cnpaas.io/contact-us/">邮件通讯</a>和<a href="http://blog.cnpaas.io">官方 blog</a> 。</p>
 
 <p>衷心感谢！</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[CNPaaS 7月 与用户书]]></title>
-    <link href="http://blog.cnpaas.io/blog/2015-jul-update/"/>
-    <updated>2015-07-03T10:34:14+08:00</updated>
-    <id>http://blog.cnpaas.io/blog/2015-jul-update</id>
-    <content type="html"><![CDATA[<p><img class="center" src="/images/posts/jul-2015.jpg" title="CNPaaS 7月 与用户书"></img></p>
-
-<p>CNPaaS 已经上线三个月，在过去三个月里非常感谢各位用户的支持。
-我们会一如既往提高我们平台的稳定性，除此之外，简单易用一直是我们不断奋斗的目标，我们接下来将会让一些 UI 的表现更加人性化。</p>
-
-<p>本月我们会依然专注于 PHP 和 HTML 环境，但是环境的升级会继续进行，务求将这两种基本环境做到极致，让大家的 PHP 和静态应用能有更好的运行表现。</p>
-
-<p>欢迎联系我们提出各种需求：<a href="http://www.cnpaas.io/contact-us/">http://www.cnpaas.io/contact-us/</a> 。</p>
-
-<p>CNPaaS 是一个创意生产基地。我们发现除了有开发者在这里测试和上线他们的作品（如我们曾介绍的 <a href="http://blog.cnpaas.io/blog/featured-app-01/">网址导航</a> 和 <a href="http://blog.cnpaas.io/blog/featured-app-02/">MarkNote</a>）外，还发现有好些作者在这里部署独立blog并进行创作：</p>
-
-<ul>
-<li>可能是一系列的技术心得记录，如： <strong><a href="http://www-heidong.app.cnpaas.io">Coding My Life</a> </strong>, 一个用静态网站生成器 Hexo 生成的分享 Android 编程笔记的个人博客。（请看<a href="http://blog.cnpaas.io/blog/featured-app-03/">相关特色应用介绍</a>）</li>
-<li>也可能是分享电影的个人博客: <strong> <a href="http://ghosthim.ga/">Lee Young Je</a> </strong>。</li>
-<li>也有热心的网友分享如何利用 CNPaaS 的平台搭建一个 WIKI 系统：<strong><a href="http://wiki-skypoxq9.app.cnpaas.io/#!CNPaaS.md">将 MDwiki 部署到 CNPaaS 上</a></strong> 。</li>
-</ul>
-
-
-<p>CNPaaS 有良好的 PHP 运行环境，并且可以一键创建 MySQL 数据库 和 PHPMyAdmin 数据库管理服务，所以也能方便你在 CNPaaS 搭建 WordPress 和 Typecho 之类的基于 PHP + MySQL 的 blog 系统：</p>
-
-<ul>
-<li><a href="http://doc.cnpaas.io/tutorial/wordpress.html">如何部署 WordPress</a></li>
-<li><a href="http://doc.cnpaas.io/tutorial/typecho.html">如何部署 Typecho</a></li>
-</ul>
-
-
-<p>以上教程均有视频演示，欢迎浏览。</p>
-
-<p>如果你想将你的 blog 分享给我们，欢迎填写以下表格：<br/>
-<strong><a href="https://jinshuju.net/f/bftwI2">https://jinshuju.net/f/bftwI2</a></strong></p>
-
-<p>我们会对你的 blog 进行推广和分享。</p>
-
-<h4>One More Thing:</h4>
-
-<p>最后我们想提醒一下我们本月的一个活动：
-CNPaaS 将推出中容器（512MB）和大容器（1GB），希望能了解您的需求和意愿，请帮忙做一下这个问卷：<br/>
-<strong><a href="http://www.mikecrm.com/f.php?t=N5UfKt">http://www.mikecrm.com/f.php?t=N5UfKt</a></strong></p>
-
-<p><strong>我们将从参与这个问卷调查的朋友，抽出15名获奖者，赢取半年的中容器（价值510元）和大容器（价值810元）使用权限（其中中容器获得者10名，大容器获得者5名）。</strong></p>
-
-<p>衷心感谢！</p>
-
-<p>CNPaaS 团队诚意敬上</p>
 ]]></content>
   </entry>
   

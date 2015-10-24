@@ -4,7 +4,7 @@
   <title><![CDATA[CNPaaS 博客]]></title>
   <link href="http://blog.cnpaas.io/atom.xml" rel="self"/>
   <link href="http://blog.cnpaas.io/"/>
-  <updated>2015-10-15T08:04:02+08:00</updated>
+  <updated>2015-10-24T10:50:48+08:00</updated>
   <id>http://blog.cnpaas.io/</id>
   <author>
     <name><![CDATA[CNPaaS]]></name>
@@ -12,6 +12,86 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[如何利用云服务助你创业 活动回顾]]></title>
+    <link href="http://blog.cnpaas.io/blog/2015-oct-activity/"/>
+    <updated>2015-10-23T18:34:14+08:00</updated>
+    <id>http://blog.cnpaas.io/blog/2015-oct-activity</id>
+    <content type="html"><![CDATA[<p><img class="center" src="http://blog.cnpaas.io/images/posts/oct-event-main.jpg" title="如何利用云服务助你创业"></img></p>
+
+<p>10月21日晚我们在深圳科技寺的“<a href="http://blog.cnpaas.io/blog/2015-oct-update/">如何利用云服务助你创业</a>”已经圆满结束。</p>
+
+<p><img class="center" src="http://blog.cnpaas.io/images/posts/oct-event-kjs.jpg" title="科技寺"></img></p>
+
+<p>本次活动非常感谢深圳<a href="http://www.kejisi.com">科技寺</a>提供的宝贵场地。同时也十分感谢来自<a href="http://www.oschina.net">开源中国</a>的嘉宾代表周凯先生和来自<a href="https://www.ucloud.cn">UCloud</a>的嘉宾代表邱良杰先生的精彩分享和鼎力支持。</p>
+
+<h2>综览云服务</h2>
+
+<p><img class="center" src="http://blog.cnpaas.io/images/posts/oct-event-jimmy-p1.jpg" title="综览云服务"></img></p>
+
+<p>活动期间，CNPaaS 创始人 Jimmy 在未讲云计算之前先谈了创业是怎么回事，从天时、地利、人和几个角度出发指出创业的核心问题以及创业团队和用户之间的关系，并且分享了对“微观调研”的看法纵览了当今的云服务，给大家普及了 IaaS、PaaS 和 SaaS 的基础概念，并且由于不同听众有不同意见而引发热烈讨论。</p>
+
+<h2>专题分享1: 开源中国</h2>
+
+<p>然后是开源中国的工程师周凯先生和大家分享了“<a href="http://git.oschina.net">码云</a>”平台，包括了社会化代码托管协作平台 Git@OSC、团队协作工具 Team@OSC、代码质量分析服务 Sonar 以及跟 CNPaaS 合作的项目演示平台 <a href="http://git.oschina.net/paas_osc">PaaS@OSC</a>。其中 Git@OSC 无论是公有还是私有代码，1000个项目内免费；可以用 git 和 svn 操作同一个项目，解决一个团队不同代码管理习惯的开发者的协作问题。</p>
+
+<p><img class="center" src="http://blog.cnpaas.io/images/posts/oct-event-osc-p1.jpg" title="OSChina分享"></img></p>
+
+<p>码云对于创业团队的意义有：通过免费的 Git@OSC 和 Team@OSC 服务节省团队的代码管理和协作的成本，通过 Sonar 减少代码债务，通过平台上现有的大量开源项目来节省开发成本，而且还有免费的技术支持。</p>
+
+<p>另外周凯还分享了机房迁移过程的数据恢复过程以及应对流量攻击和 CC 攻击的防御经验。</p>
+
+<p><img class="center" src="http://blog.cnpaas.io/images/posts/oct-event-osc-p2.jpg" title="OSChina分享"></img>
+<small>周凯正在答听众问</small></p>
+
+<h2>专题分享2: UCloud</h2>
+
+<p>接下来是 UCloud 架构师邱良杰先生给大家作关于 IaaS 的分享，他的主题是《公有云，互联网创业的技术虫洞》。</p>
+
+<p><img class="center" src="http://blog.cnpaas.io/images/posts/oct-event-ucloud-p1.jpg" title="UCloud分享"></img></p>
+
+<p>邱先生先跟大家分析了运维所面临的挑战以及云计算服务是如何解决运维人员在工作中遇到的问题的。传统的运维工作包括机房、系统、架构、安全等各个方面，并且里边可能遇到各种被无限放大的问题，而云计算把运维工作简化为注册、登录、创建、升级、上线、部署和扩展这样的高效管理流程。</p>
+
+<p><img class="center" src="http://blog.cnpaas.io/images/posts/oct-event-ucloud-p2.jpg" title="OSChina分享"></img>
+<small>邱良杰正在答听众问</small></p>
+
+<p>然后邱先生还给大家分析了云计算的框架，以及 UCloud 的各种服务，以及细致分享采用 UCloud 服务的一个游戏客户案例。</p>
+
+<h2>专题分享3: CNPaaS</h2>
+
+<p>最后一个作专题分享的是我们 CNPaaS 的 Jimmy，他向大家分享了 CNPaaS 为应对用户和客户面临种种运维问题提出的解决方案，包括：</p>
+
+<ul>
+<li>平台云服务 (PaaS)</li>
+<li>上传代码，后台自动搞定</li>
+<li>点击创建数据库，无须手动安装</li>
+<li>按流量自动拓展</li>
+<li>数据备份及回复</li>
+<li>后端运维监控和应用数据</li>
+<li>在中国大陆以内及以外的数据中心 / CDN (合作伙伴)</li>
+</ul>
+
+
+<p>目前还未完全实现，CNPaaS 正朝这些方向努力。</p>
+
+<p><img class="center" src="http://blog.cnpaas.io/images/posts/oct-event-jimmy-p2.jpg" title="OSChina分享"></img></p>
+
+<p>然后 Jimmy 在介绍 CNPaaS 的现有服务、应用案例以及用户反馈之余，还特别提到组建 CNPaaS 的初衷：由于我们本身就是开发人员，想专注于开发的本人而不是服务器运维工作，所以也希望更多的开发者能专注于开发，于是我们做这个平台实际是替他们完成更大的运维工作。对此感兴趣的朋友，不妨看看<a href="http://v.youku.com/v_show/id_XODA5NDc5MzA0.html">这个视频</a>以及我们的<a href="http://www.cnpaas.io/vision/">公司愿景</a>。</p>
+
+<p><img class="center" src="http://blog.cnpaas.io/images/posts/oct-event-jimmy-p3.jpg" title="CNPaaS分享"></img>
+<img class="center" src="http://blog.cnpaas.io/images/posts/oct-event-jimmy-p4.jpg" title="CNPaaS分享"></img>
+<small>Jimmy 正在和听众交流</small></p>
+
+<h2>后记</h2>
+
+<p>每个专题分享过后，很多听众都积极踊跃举手发言提问，甚至提出和讲者截然不同的意见，大家彼此切磋，互相学习，共同进步。</p>
+
+<p>在活动结束之后，进入了自由讨论时间，听众与听众、听众与讲者、讲者与讲者之间也进行了深入的交流。里面就包括了我们<a href="http://blog.cnpaas.io/blog/featured-app-01/">特色应用</a>的作者。能和用户零距离接触，聆听到不少意见和建议，我们获益良多。</p>
+
+<p>此次活动也有一些不足，我们期待下一次的活动可以办得更好。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[CNPaaS 10月 与用户书]]></title>
@@ -855,33 +935,6 @@ PaaS……主要看服务商怎么做，程序代码由于能做到云端和本�
 <p><img src="http://photos3.meetupstatic.com/photos/event/5/a/4/8/600_388163112.jpeg" title="&#34;Awesome Docker T-shirt&#34;" alt="&#34;Awesome Docker T-shirt&#34;"></p>
 
 <p>We look forward to seeing you at the next meetup! Don’t forget to grab an awesome Docker T-shirt! ;)</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[走进 PaaS 领域]]></title>
-    <link href="http://blog.cnpaas.io/blog/zou-jin-paas-ling-yu/"/>
-    <updated>2014-07-08T13:02:51+08:00</updated>
-    <id>http://blog.cnpaas.io/blog/zou-jin-paas-ling-yu</id>
-    <content type="html"><![CDATA[<h2>走进PaaS</h2>
-
-<p>两个月前，我面临的一个问题促使我对云计算技术进行了更深入的学习，特别是在<a href="http://en.wikipedia.org/wiki/Platform_as_a_service">PaaS方面</a>。我之前一直使用Heroku，它给我的部署经历提供非常好的用户体验。然而我需要在中国大陆部署我的应用程序，并一直在寻找能帮我管理应用程序基础设施的类似平台。</p>
-
-<p>我发现的最相似的是 <a href="http://sae.sina.com.cn/">SAE</a>，但它并不支持Ruby on Rails。还有 <a href="https://cn.avoscloud.com/">AVOS Cloud</a> 和 <a href="http://www.codenow.cn/">Bmob</a>，但它们更像是提供应用程序接口来减轻开发负担而不是托管应用程序。所以事实上，我没有发现能像Heroku那样运作的如此好的平台。我还发现有人建议在<a href="http://goo.gl/vMEhcx">Digital Ocean上部署Dokku</a> (或者其他托管服务提供商)。</p>
-
-<p>后来我发现，中国没有人在这个领域寻求解决方案其实并不奇怪。根据<a href="http://goo.gl/Hik8yY">MIIT的最新报告</a> (第 16 页)，Heroku所在的PaaS服务只占云计算市场收入的5%不到，大约2.2亿人民币。</p>
-
-<h2>PaaS: 一个有待解决的问题</h2>
-
-<p>但这个问题还是需要解决的。随着学习的进行，我很快把注意力转向了美国。人们也面临着同样的问题，而事实更是这样。由于IaaS服务变得突出，而且企业有时宁愿用混合云来储存内部数据，所以现在开发者手中有成千上百个可以轻松访问的服务器，但服务器的标准化却成了问题。EC2允许管理者对用户数据进行说明，像实例的初始化脚本一样。这个方向看起来前景不错，像 <a href="http://www.vagrantup.com/">Vagrant</a> 和 <a href="http://www.getchef.com/chef/">Chef</a> 这些项目正在朝这个方向发展并且正在部分缓解这个问题。但管理者仍然需要SSH去连接服务器，而且把虚拟机当做底层技术还需要占用大量系统资源。</p>
-
-<h2>越来越火热</h2>
-
-<p>人们也在探索其他可能性，所以 <a href="http://www.docker.com/">Docker</a> 和 <a href="https://www.openshift.com/">OpenShift</a> 应运而生。他们正在研究他们是否可以在尽可能多地重复使用系统资源的同时使应用程序实例安全运行并且可以对彼此的运行进行沙盒操作。事实上，Jeff Lindsay 的<a href="http://goo.gl/T3sJEr">一篇文章</a> 很好地总结了他的职业发展历程，主要是他如何发现市场发展对于PaaS的需求。他现在正在进行一个叫 <a href="https://flynn.io/">Flynn</a> 项目，因为引入了分布式服务存储库这个概念，该项目将带领PaaS进入一个新的层次。（他同时也是建立 <a href="http://goo.gl/s841B">Dokku</a> 这个单服务器Heroku的人）</p>
-
-<p>当我在对这些令人兴奋的项目进行更深入的学习时，我也在重新思考，中国大陆的PaaS领域会发生什么，而我又可以在这个领域做些什么。</p>
-
-<p>在接下来的文章里，我会覆盖更多关于PaaS在美国和中国的发展，然后着重介绍Docker。</p>
 ]]></content>
   </entry>
   

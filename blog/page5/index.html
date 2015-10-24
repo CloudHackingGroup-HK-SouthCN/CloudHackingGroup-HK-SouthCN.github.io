@@ -35,7 +35,7 @@
 <meta content="/images/favicon/browserconfig.xml" name="msapplication-config" />
 
 
-  <title>Climbing Over the GFW - CNPaaS 博客</title>
+  <title>CNPaaS 博客</title>
 
   
   
@@ -47,7 +47,7 @@
   <![endif]-->
 
   
-  <link rel="canonical" href="http://blog.cnpaas.io/blog/climbing-over-the-gfw">
+  <link rel="canonical" href="http://blog.cnpaas.io/blog/page5">
   
   <link href="/atom.xml" rel="alternate" title="CNPaaS 博客" type="application/atom+xml">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -131,13 +131,16 @@
   <div class="container content">
   <div class="row">
     <div class="col-md-9">
+      <article role="article">
+        <div class="blog-index">
+  
+  
+  
+    <article>
       
-
-      <article class="hentry" role="article">
-        
   <header>
     
-      <h1 class="entry-title">Climbing Over the GFW</h1>
+      <h1 class="entry-title"><a href="/blog/zou-jin-paas-ling-yu/">走进 PaaS 领域</a></h1>
     
     
       <p class="meta">
@@ -146,106 +149,67 @@
 
 
 
-<time class='entry-date' datetime='2015-08-22T15:41:49+08:00'><span class='date'><span class='date-month'>Aug</span> <span class='date-day'>22</span><span class='date-suffix'>nd</span>, <span class='date-year'>2015</span></span> <span class='time'>3:41 pm</span></time>
+<time class='entry-date' datetime='2014-07-08T13:02:51+08:00'><span class='date'><span class='date-month'>Jul</span> <span class='date-day'>8</span><span class='date-suffix'>th</span>, <span class='date-year'>2014</span></span> <span class='time'>1:02 pm</span></time>
         
-           | <a href="#disqus_thread"
-             data-disqus-identifier="http://blog.cnpaas.io">Comments</a>
+           | <a href="/blog/zou-jin-paas-ling-yu/#disqus_thread"
+             data-disqus-identifier="http://blog.cnpaas.io/blog/zou-jin-paas-ling-yu/">Comments</a>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>I had a business trip in China in the past two weeks, and this put my current VPN provider, Astrill, into test.</p>
+  <div class="entry-content"><h2>走进PaaS</h2>
 
-<p>In its Pro subscription, Astrill has the OpenWeb, OpenVPN, and StealthVPN mode. OpenWeb is an HTTP/HTTPS proxy, which works well but only for http connections (ie. web browsing and connecting to http destination).</p>
+<p>两个月前，我面临的一个问题促使我对云计算技术进行了更深入的学习，特别是在<a href="http://en.wikipedia.org/wiki/Platform_as_a_service">PaaS方面</a>。我之前一直使用Heroku，它给我的部署经历提供非常好的用户体验。然而我需要在中国大陆部署我的应用程序，并一直在寻找能帮我管理应用程序基础设施的类似平台。</p>
 
-<p>This is fine most of the time, but I am a ruby developer. I run <code>bundle install</code>, and get ruby gems from <a href="https://rubygems.org/.">https://rubygems.org/.</a> (It is fine also if you own the ruby project and could change the gems download destination to <a href="http://ruby.taobao.org/">taobao mirror</a>, but not fine if you are running Vagrant and other ruby project you do not own.)</p>
+<p>我发现的最相似的是 <a href="http://sae.sina.com.cn/">SAE</a>，但它并不支持Ruby on Rails。还有 <a href="https://cn.avoscloud.com/">AVOS Cloud</a> 和 <a href="http://www.codenow.cn/">Bmob</a>，但它们更像是提供应用程序接口来减轻开发负担而不是托管应用程序。所以事实上，我没有发现能像Heroku那样运作的如此好的平台。我还发现有人建议在<a href="http://goo.gl/vMEhcx">Digital Ocean上部署Dokku</a> (或者其他托管服务提供商)。</p>
 
-<p>Astrill OpenVPN and StealthVPN simply do not work in China.</p>
+<p>后来我发现，中国没有人在这个领域寻求解决方案其实并不奇怪。根据<a href="http://goo.gl/Hik8yY">MIIT的最新报告</a> (第 16 页)，Heroku所在的PaaS服务只占云计算市场收入的5%不到，大约2.2亿人民币。</p>
 
-<p>So, I researched and experimented a bit. I found:</p>
+<h2>PaaS: 一个有待解决的问题</h2>
 
-<ul>
-<li><strong><a href="https://www.expressvpn.com/">Express VPN</a></strong>, and</li>
-<li><strong><a href="https://www.goldenfrog.com/vyprvpn">VyprVPN</a></strong></li>
-</ul>
+<p>但这个问题还是需要解决的。随着学习的进行，我很快把注意力转向了美国。人们也面临着同样的问题，而事实更是这样。由于IaaS服务变得突出，而且企业有时宁愿用混合云来储存内部数据，所以现在开发者手中有成千上百个可以轻松访问的服务器，但服务器的标准化却成了问题。EC2允许管理者对用户数据进行说明，像实例的初始化脚本一样。这个方向看起来前景不错，像 <a href="http://www.vagrantup.com/">Vagrant</a> 和 <a href="http://www.getchef.com/chef/">Chef</a> 这些项目正在朝这个方向发展并且正在部分缓解这个问题。但管理者仍然需要SSH去连接服务器，而且把虚拟机当做底层技术还需要占用大量系统资源。</p>
 
+<h2>越来越火热</h2>
 
-<p>These two services work well on my mac. I have tried each of them for more than 3 hours. I learn that some VPNs and even <code>ssh -D</code> would work for the first ten minutes in China, then it will start dropping data packets. This is because the GFW would do deep packet inspection (DPI) and use machine lerning to find heuristics to guess which TCP/UDP connection is likely being used as a VPN. When they think there is a high probability it is a VPN connection, they simply drop the packets. Now to bypass that, VPN tools need to obfuscate the data and hide itself from detection <img class='emoji' title=':smile:' alt=':smile:' src='https://assets.github.com/images/icons/emoji/unicode/1f604.png' height='20' width='20' align='absmiddle' />.</p>
+<p>人们也在探索其他可能性，所以 <a href="http://www.docker.com/">Docker</a> 和 <a href="https://www.openshift.com/">OpenShift</a> 应运而生。他们正在研究他们是否可以在尽可能多地重复使用系统资源的同时使应用程序实例安全运行并且可以对彼此的运行进行沙盒操作。事实上，Jeff Lindsay 的<a href="http://goo.gl/T3sJEr">一篇文章</a> 很好地总结了他的职业发展历程，主要是他如何发现市场发展对于PaaS的需求。他现在正在进行一个叫 <a href="https://flynn.io/">Flynn</a> 项目，因为引入了分布式服务存储库这个概念，该项目将带领PaaS进入一个新的层次。（他同时也是建立 <a href="http://goo.gl/s841B">Dokku</a> 这个单服务器Heroku的人）</p>
 
-<p>Btw, I learned that <a href="https://en.wikipedia.org/wiki/Deep_packet_inspection">DPI is also performed in US</a></p>
+<p>当我在对这些令人兴奋的项目进行更深入的学习时，我也在重新思考，中国大陆的PaaS领域会发生什么，而我又可以在这个领域做些什么。</p>
 
-<p>VyprVPN has a <strong>Chameleon</strong> mode that would scramble metadata to prevent DPI, VPN blocking and throttling. ExpressVPN might also have similar technology, but didn&rsquo;t specifically mentioned in their website. ExpressVPN also work properly on my mac.</p>
-
-<p>The next natural extension would be to have your mobile device climb over the firewall as well. Both service providers offer iOS / Android version app for that.</p>
-
-<p>After experimenting:</p>
-
-<ul>
-<li>VyprVPN doesn&rsquo;t connect very well on my iOS v6 (I know, it is prehistoric) iPhone. But you could try it out in your device with the latest iOS device</li>
-<li>ExpressVPN requires at least iOS v8</li>
-<li>So instead I tried <strong><a href="https://itunes.apple.com/us/app/vpn-express/id375584677">VPN Express</a></strong> and work well on my iPhone. But I am not a heavy mobile device user. I checked that I could connect to Youtube for over 30 mins, sync all my Dropbox files, and check all my gmail accounts</li>
-<li>ExpressVPN does work well on my Android v4.4 device</li>
-</ul>
+<p>在接下来的文章里，我会覆盖更多关于PaaS在美国和中国的发展，然后着重介绍Docker。</p>
+</div>
+  
+  
 
 
-<p>So my VPN service providers now:</p>
-
-<ul>
-<li>Express VPN on my mac</li>
-<li>VPN Express on my iPhone (iOS v6)</li>
-<li>Express VPN on my android device</li>
-</ul>
-
-
-<p>As a side note, today I also learn that <a href="https://github.com/shadowsocks/shadowsocks-iOS/issues/124#issuecomment-133630294">Shadowsocks code is removed by the author due to <strong>regulation</strong></a>. (<a href="https://news.ycombinator.com/item?id=10101469">Hacker news discussion</a>). Sad.</p>
+    </article>
+  
+  <div class="pagination">
+    
+    <a href="/blog/archives">Blog Archives</a>
+    
+    <a class="next" href="/blog/page4/">Newer &rarr;</a>
+    
+  </div>
 </div>
 
-
-        <footer>
-          <p class="meta">
+        
+          <footer>
             
+              <div class="sharing">
   
-
-<span class="byline author vcard">Posted by <span class="fn">Jimmy Chu</span></span>
-
-            
-
-
-
-
-<time class='entry-date' datetime='2015-08-22T15:41:49+08:00'><span class='date'><span class='date-month'>Aug</span> <span class='date-day'>22</span><span class='date-suffix'>nd</span>, <span class='date-year'>2015</span></span> <span class='time'>3:41 pm</span></time>
-            
-
-<span class="categories">
-  
-    <a class='category' href='/blog/categories/china/'>china</a>, <a class='category' href='/blog/categories/living/'>living</a>
-  
-</span>
-
-
-          </p>
-          
-            <div class="sharing">
-  
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://blog.cnpaas.io/blog/climbing-over-the-gfw/" data-via="" data-counturl="http://blog.cnpaas.io/blog/climbing-over-the-gfw/" >Tweet</a>
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://blog.cnpaas.io/blog/page5/index.html" data-via="" data-counturl="http://blog.cnpaas.io/blog/page5/index.html" >Tweet</a>
   
   
   
 </div>
 
-          
-          <p class="meta margin-top clearfix">
             
-              <a class="basic-alignment pull-left" href="/blog/nei-di-fan-qiang-xin-de/" title="Previous Post: 内地翻墙心得">&laquo; 内地翻墙心得</a>
-            
-            
-              <a class="basic-alignment pull-right" href="/blog/company-vision/" title="Next Post: 公司愿景">公司愿景 &raquo;</a>
-            
-          </p>
-        </footer>
+          </footer>
+        
       </article>
+
       
         <section>
           <h1>Comments</h1>
@@ -302,8 +266,8 @@
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://blog.cnpaas.io/blog/climbing-over-the-gfw/';
-        var disqus_url = 'http://blog.cnpaas.io/blog/climbing-over-the-gfw/';
+        var disqus_identifier = 'http://blog.cnpaas.io/blog/page5/index.html';
+        var disqus_url = 'http://blog.cnpaas.io/blog/page5/index.html';
         var disqus_script = 'embed.js';
       
       (function () {

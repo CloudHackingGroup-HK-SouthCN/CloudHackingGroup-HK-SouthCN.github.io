@@ -140,6 +140,61 @@
       
   <header>
     
+      <h1 class="entry-title"><a href="/blog/iaas-vs-paas-p2/">云的抉择: “我的Web应用到底应该在哪种云服务上运行？”Part 2</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2015-03-29T15:34:14+08:00'><span class='date'><span class='date-month'>Mar</span> <span class='date-day'>29</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>3:34 pm</span></time>
+        
+           | <a href="/blog/iaas-vs-paas-p2/#disqus_thread"
+             data-disqus-identifier="http://blog.cnpaas.io/blog/iaas-vs-paas-p2/">Comments</a>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p><strong><a href="http://blog.cnpaas.io/blog/iaas-vs-paas-p1/">上一篇</a></strong> 我们从<strong>自由度</strong>、<strong>运维压力</strong>和<strong>性能</strong>的角度对 IaaS 和 PaaS 两种云服务对web开发者的适用性进行了PK。</p>
+
+<p>这一篇我们将从<strong>便利性</strong>及<strong>迁移成本</strong>这两个角度继续探讨“我的Web应用或网站到底应该在哪种云服务上运行？”这个问题。</p>
+
+<h4>四、便利性</h4>
+
+<p>有一种说法，是Docker部署应用“像点个按钮一样简单。”其实对于一般人来说，真正应验这句话的是PaaS服务（有些PaaS服务是建立在Docker基础上的）。</p>
+
+<p>做得好的PaaS在这点上是可以秒杀IaaS的。譬如GAE，当你修改完代码，用Google提供的软件点一下按钮就可以完成在本地测试和在云端运行，你甚至都不需要去知道你的代码是怎么传上去的。</p>
+
+<p>而IaaS基于上边所说的有前后期的运维压力，你甚至在部署应用之前得选择你的服务器要安装什么操作系统。</p>
+
+<p>事实上现在PaaS服务主流的上传方式还是有一点学习曲线的，比如你可能需要了解怎么用SVN或者GIT去更新和推送你的代码到PaaS服务上，这个过程不比传统FTP上传来得简单，但是本身SVN和GIT作为版本控制工具的诸多优势，是FTP不可比拟的，熟悉基本的使用后，一切就交给一两句命令去完成。  而对于PaaS服务商来讲，如何解决开发环境和生产环境里项目可能产生的差异是一个挑战。比如你一个WordPress项目虽然通过GIT做到本地和云端的代码一致，但是数据库如何解决一致的问题？云端运行的版本在线安装了插件以及上传了图片等静态文件上去，这种情况造成的差异问题如何解决？</p>
+
+<h4>五、迁移成本</h4>
+
+<p>对于有运维基础的人来说，IaaS比较保险，虽然麻烦一点，但是毕竟要拿回文件和数据是分分钟的事情。<br/>
+PaaS……主要看服务商怎么做，程序代码由于能做到云端和本地天然一致，自然没问题，问题上面一条提到的静态文件和数据怎么办，而且即便都拿到了，能不能在另一个平台顺利运行也是个问题。比如我当年在GAE上运行的网站在GAE被墙后基本上就宣告死亡了。这个问题上我建议即使选择PaaS，也不要选择服务太奇葩的，GAE的问题在于它的数据库类型，几乎在其他环境下没法用。尽量选择服务环境比较通用的。</p>
+
+<hr />
+
+<p><strong>总的来讲</strong>，IaaS是让服务环境去适应项目程序，你需要花精力去做运维工作配置好适合的运行环境；PaaS是让项目程序去适应服务环境，你需要限制程序开发的自由度按照PaaS服务的一定规范去开发你的项目。</p>
+
+<p>我建议先看看备选的PaaS服务商提供的服务是否能满足你项目正常运行的需要，小型项目和需要快速上线的项目可以用PaaS快速部署看看效果，而使用常用CMS创建的网站，由于对运行环境的定制要求不高，也特别适合用PaaS。  如果有后期优化运行环境需要或者程序不稳定因素大的、有可能大改程序的，那么基于自由度的因素选择IaaS或许更适合。</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
       <h1 class="entry-title"><a href="/blog/iaas-vs-paas-p1/">云的抉择: “我的Web应用到底应该在哪种云服务上运行？”Part 1</a></h1>
     
     
@@ -406,57 +461,9 @@
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/zou-jin-paas-ling-yu/">走进 PaaS 领域</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2014-07-08T13:02:51+08:00'><span class='date'><span class='date-month'>Jul</span> <span class='date-day'>8</span><span class='date-suffix'>th</span>, <span class='date-year'>2014</span></span> <span class='time'>1:02 pm</span></time>
-        
-           | <a href="/blog/zou-jin-paas-ling-yu/#disqus_thread"
-             data-disqus-identifier="http://blog.cnpaas.io/blog/zou-jin-paas-ling-yu/">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><h2>走进PaaS</h2>
-
-<p>两个月前，我面临的一个问题促使我对云计算技术进行了更深入的学习，特别是在<a href="http://en.wikipedia.org/wiki/Platform_as_a_service">PaaS方面</a>。我之前一直使用Heroku，它给我的部署经历提供非常好的用户体验。然而我需要在中国大陆部署我的应用程序，并一直在寻找能帮我管理应用程序基础设施的类似平台。</p>
-
-<p>我发现的最相似的是 <a href="http://sae.sina.com.cn/">SAE</a>，但它并不支持Ruby on Rails。还有 <a href="https://cn.avoscloud.com/">AVOS Cloud</a> 和 <a href="http://www.codenow.cn/">Bmob</a>，但它们更像是提供应用程序接口来减轻开发负担而不是托管应用程序。所以事实上，我没有发现能像Heroku那样运作的如此好的平台。我还发现有人建议在<a href="http://goo.gl/vMEhcx">Digital Ocean上部署Dokku</a> (或者其他托管服务提供商)。</p>
-
-<p>后来我发现，中国没有人在这个领域寻求解决方案其实并不奇怪。根据<a href="http://goo.gl/Hik8yY">MIIT的最新报告</a> (第 16 页)，Heroku所在的PaaS服务只占云计算市场收入的5%不到，大约2.2亿人民币。</p>
-
-<h2>PaaS: 一个有待解决的问题</h2>
-
-<p>但这个问题还是需要解决的。随着学习的进行，我很快把注意力转向了美国。人们也面临着同样的问题，而事实更是这样。由于IaaS服务变得突出，而且企业有时宁愿用混合云来储存内部数据，所以现在开发者手中有成千上百个可以轻松访问的服务器，但服务器的标准化却成了问题。EC2允许管理者对用户数据进行说明，像实例的初始化脚本一样。这个方向看起来前景不错，像 <a href="http://www.vagrantup.com/">Vagrant</a> 和 <a href="http://www.getchef.com/chef/">Chef</a> 这些项目正在朝这个方向发展并且正在部分缓解这个问题。但管理者仍然需要SSH去连接服务器，而且把虚拟机当做底层技术还需要占用大量系统资源。</p>
-
-<h2>越来越火热</h2>
-
-<p>人们也在探索其他可能性，所以 <a href="http://www.docker.com/">Docker</a> 和 <a href="https://www.openshift.com/">OpenShift</a> 应运而生。他们正在研究他们是否可以在尽可能多地重复使用系统资源的同时使应用程序实例安全运行并且可以对彼此的运行进行沙盒操作。事实上，Jeff Lindsay 的<a href="http://goo.gl/T3sJEr">一篇文章</a> 很好地总结了他的职业发展历程，主要是他如何发现市场发展对于PaaS的需求。他现在正在进行一个叫 <a href="https://flynn.io/">Flynn</a> 项目，因为引入了分布式服务存储库这个概念，该项目将带领PaaS进入一个新的层次。（他同时也是建立 <a href="http://goo.gl/s841B">Dokku</a> 这个单服务器Heroku的人）</p>
-
-<p>当我在对这些令人兴奋的项目进行更深入的学习时，我也在重新思考，中国大陆的PaaS领域会发生什么，而我又可以在这个领域做些什么。</p>
-
-<p>在接下来的文章里，我会覆盖更多关于PaaS在美国和中国的发展，然后着重介绍Docker。</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
+    
+      <a class="prev" href="/blog/page5/">&larr; Older</a>
     
     <a href="/blog/archives">Blog Archives</a>
     
@@ -499,6 +506,10 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/2015-oct-activity/">如何利用云服务助你创业 活动回顾</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/2015-oct-update/">CNPaaS 10月 与用户书</a>
       </li>
     
@@ -512,10 +523,6 @@
     
       <li class="post">
         <a href="/blog/nei-di-fan-qiang-xin-de/">内地翻墙心得</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/event-01-result/">中、大容器有奖活动结果公布</a>
       </li>
     
   </ul>

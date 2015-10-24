@@ -35,7 +35,7 @@
 <meta content="/images/favicon/browserconfig.xml" name="msapplication-config" />
 
 
-  <title>Climbing Over the GFW - CNPaaS 博客</title>
+  <title>如何利用云服务助你创业 活动回顾 - CNPaaS 博客</title>
 
   
   
@@ -47,7 +47,7 @@
   <![endif]-->
 
   
-  <link rel="canonical" href="http://blog.cnpaas.io/blog/climbing-over-the-gfw">
+  <link rel="canonical" href="http://blog.cnpaas.io/blog/2015-oct-activity">
   
   <link href="/atom.xml" rel="alternate" title="CNPaaS 博客" type="application/atom+xml">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -137,7 +137,7 @@
         
   <header>
     
-      <h1 class="entry-title">Climbing Over the GFW</h1>
+      <h1 class="entry-title">如何利用云服务助你创业 活动回顾</h1>
     
     
       <p class="meta">
@@ -146,7 +146,7 @@
 
 
 
-<time class='entry-date' datetime='2015-08-22T15:41:49+08:00'><span class='date'><span class='date-month'>Aug</span> <span class='date-day'>22</span><span class='date-suffix'>nd</span>, <span class='date-year'>2015</span></span> <span class='time'>3:41 pm</span></time>
+<time class='entry-date' datetime='2015-10-23T18:34:14+08:00'><span class='date'><span class='date-month'>Oct</span> <span class='date-day'>23</span><span class='date-suffix'>rd</span>, <span class='date-year'>2015</span></span> <span class='time'>6:34 pm</span></time>
         
            | <a href="#disqus_thread"
              data-disqus-identifier="http://blog.cnpaas.io">Comments</a>
@@ -156,50 +156,78 @@
   </header>
 
 
-<div class="entry-content"><p>I had a business trip in China in the past two weeks, and this put my current VPN provider, Astrill, into test.</p>
+<div class="entry-content"><p><img class="center" src="/images/posts/oct-event-main.jpg" title="如何利用云服务助你创业"></img></p>
 
-<p>In its Pro subscription, Astrill has the OpenWeb, OpenVPN, and StealthVPN mode. OpenWeb is an HTTP/HTTPS proxy, which works well but only for http connections (ie. web browsing and connecting to http destination).</p>
+<p>10月21日晚我们在深圳科技寺的“<a href="http://blog.cnpaas.io/blog/2015-oct-update/">如何利用云服务助你创业</a>”已经圆满结束。</p>
 
-<p>This is fine most of the time, but I am a ruby developer. I run <code>bundle install</code>, and get ruby gems from <a href="https://rubygems.org/.">https://rubygems.org/.</a> (It is fine also if you own the ruby project and could change the gems download destination to <a href="http://ruby.taobao.org/">taobao mirror</a>, but not fine if you are running Vagrant and other ruby project you do not own.)</p>
+<p><img class="center" src="/images/posts/oct-event-kjs.jpg" title="科技寺"></img></p>
 
-<p>Astrill OpenVPN and StealthVPN simply do not work in China.</p>
+<p>本次活动非常感谢深圳<a href="http://www.kejisi.com">科技寺</a>提供的宝贵场地。同时也十分感谢来自<a href="http://www.oschina.net">开源中国</a>的嘉宾代表周凯先生和来自<a href="https://www.ucloud.cn">UCloud</a>的嘉宾代表邱良杰先生的精彩分享和鼎力支持。</p>
 
-<p>So, I researched and experimented a bit. I found:</p>
+<h2>综览云服务</h2>
+
+<p><img class="center" src="/images/posts/oct-event-jimmy-p1.jpg" title="综览云服务"></img></p>
+
+<p>活动期间，CNPaaS 创始人 Jimmy 在未讲云计算之前先谈了创业是怎么回事，从天时、地利、人和几个角度出发指出创业的核心问题以及创业团队和用户之间的关系，并且分享了对“微观调研”的看法纵览了当今的云服务，给大家普及了 IaaS、PaaS 和 SaaS 的基础概念，并且由于不同听众有不同意见而引发热烈讨论。</p>
+
+<h2>专题分享1: 开源中国</h2>
+
+<p>然后是开源中国的工程师周凯先生和大家分享了“<a href="http://git.oschina.net">码云</a>”平台，包括了社会化代码托管协作平台 Git@OSC、团队协作工具 Team@OSC、代码质量分析服务 Sonar 以及跟 CNPaaS 合作的项目演示平台 <a href="http://git.oschina.net/paas_osc">PaaS@OSC</a>。其中 Git@OSC 无论是公有还是私有代码，1000个项目内免费；可以用 git 和 svn 操作同一个项目，解决一个团队不同代码管理习惯的开发者的协作问题。</p>
+
+<p><img class="center" src="/images/posts/oct-event-osc-p1.jpg" title="OSChina分享"></img></p>
+
+<p>码云对于创业团队的意义有：通过免费的 Git@OSC 和 Team@OSC 服务节省团队的代码管理和协作的成本，通过 Sonar 减少代码债务，通过平台上现有的大量开源项目来节省开发成本，而且还有免费的技术支持。</p>
+
+<p>另外周凯还分享了机房迁移过程的数据恢复过程以及应对流量攻击和 CC 攻击的防御经验。</p>
+
+<p><img class="center" src="/images/posts/oct-event-osc-p2.jpg" title="OSChina分享"></img>
+<small>周凯正在答听众问</small></p>
+
+<h2>专题分享2: UCloud</h2>
+
+<p>接下来是 UCloud 架构师邱良杰先生给大家作关于 IaaS 的分享，他的主题是《公有云，互联网创业的技术虫洞》。</p>
+
+<p><img class="center" src="/images/posts/oct-event-ucloud-p1.jpg" title="UCloud分享"></img></p>
+
+<p>邱先生先跟大家分析了运维所面临的挑战以及云计算服务是如何解决运维人员在工作中遇到的问题的。传统的运维工作包括机房、系统、架构、安全等各个方面，并且里边可能遇到各种被无限放大的问题，而云计算把运维工作简化为注册、登录、创建、升级、上线、部署和扩展这样的高效管理流程。</p>
+
+<p><img class="center" src="/images/posts/oct-event-ucloud-p2.jpg" title="OSChina分享"></img>
+<small>邱良杰正在答听众问</small></p>
+
+<p>然后邱先生还给大家分析了云计算的框架，以及 UCloud 的各种服务，以及细致分享采用 UCloud 服务的一个游戏客户案例。</p>
+
+<h2>专题分享3: CNPaaS</h2>
+
+<p>最后一个作专题分享的是我们 CNPaaS 的 Jimmy，他向大家分享了 CNPaaS 为应对用户和客户面临种种运维问题提出的解决方案，包括：</p>
 
 <ul>
-<li><strong><a href="https://www.expressvpn.com/">Express VPN</a></strong>, and</li>
-<li><strong><a href="https://www.goldenfrog.com/vyprvpn">VyprVPN</a></strong></li>
+<li>平台云服务 (PaaS)</li>
+<li>上传代码，后台自动搞定</li>
+<li>点击创建数据库，无须手动安装</li>
+<li>按流量自动拓展</li>
+<li>数据备份及回复</li>
+<li>后端运维监控和应用数据</li>
+<li>在中国大陆以内及以外的数据中心 / CDN (合作伙伴)</li>
 </ul>
 
 
-<p>These two services work well on my mac. I have tried each of them for more than 3 hours. I learn that some VPNs and even <code>ssh -D</code> would work for the first ten minutes in China, then it will start dropping data packets. This is because the GFW would do deep packet inspection (DPI) and use machine lerning to find heuristics to guess which TCP/UDP connection is likely being used as a VPN. When they think there is a high probability it is a VPN connection, they simply drop the packets. Now to bypass that, VPN tools need to obfuscate the data and hide itself from detection <img class='emoji' title=':smile:' alt=':smile:' src='https://assets.github.com/images/icons/emoji/unicode/1f604.png' height='20' width='20' align='absmiddle' />.</p>
+<p>目前还未完全实现，CNPaaS 正朝这些方向努力。</p>
 
-<p>Btw, I learned that <a href="https://en.wikipedia.org/wiki/Deep_packet_inspection">DPI is also performed in US</a></p>
+<p><img class="center" src="/images/posts/oct-event-jimmy-p2.jpg" title="OSChina分享"></img></p>
 
-<p>VyprVPN has a <strong>Chameleon</strong> mode that would scramble metadata to prevent DPI, VPN blocking and throttling. ExpressVPN might also have similar technology, but didn&rsquo;t specifically mentioned in their website. ExpressVPN also work properly on my mac.</p>
+<p>然后 Jimmy 在介绍 CNPaaS 的现有服务、应用案例以及用户反馈之余，还特别提到组建 CNPaaS 的初衷：由于我们本身就是开发人员，想专注于开发的本人而不是服务器运维工作，所以也希望更多的开发者能专注于开发，于是我们做这个平台实际是替他们完成更大的运维工作。对此感兴趣的朋友，不妨看看<a href="http://v.youku.com/v_show/id_XODA5NDc5MzA0.html">这个视频</a>以及我们的<a href="http://www.cnpaas.io/vision/">公司愿景</a>。</p>
 
-<p>The next natural extension would be to have your mobile device climb over the firewall as well. Both service providers offer iOS / Android version app for that.</p>
+<p><img class="center" src="/images/posts/oct-event-jimmy-p3.jpg" title="CNPaaS分享"></img>
+<img class="center" src="/images/posts/oct-event-jimmy-p4.jpg" title="CNPaaS分享"></img>
+<small>Jimmy 正在和听众交流</small></p>
 
-<p>After experimenting:</p>
+<h2>后记</h2>
 
-<ul>
-<li>VyprVPN doesn&rsquo;t connect very well on my iOS v6 (I know, it is prehistoric) iPhone. But you could try it out in your device with the latest iOS device</li>
-<li>ExpressVPN requires at least iOS v8</li>
-<li>So instead I tried <strong><a href="https://itunes.apple.com/us/app/vpn-express/id375584677">VPN Express</a></strong> and work well on my iPhone. But I am not a heavy mobile device user. I checked that I could connect to Youtube for over 30 mins, sync all my Dropbox files, and check all my gmail accounts</li>
-<li>ExpressVPN does work well on my Android v4.4 device</li>
-</ul>
+<p>每个专题分享过后，很多听众都积极踊跃举手发言提问，甚至提出和讲者截然不同的意见，大家彼此切磋，互相学习，共同进步。</p>
 
+<p>在活动结束之后，进入了自由讨论时间，听众与听众、听众与讲者、讲者与讲者之间也进行了深入的交流。里面就包括了我们<a href="http://blog.cnpaas.io/blog/featured-app-01/">特色应用</a>的作者。能和用户零距离接触，聆听到不少意见和建议，我们获益良多。</p>
 
-<p>So my VPN service providers now:</p>
-
-<ul>
-<li>Express VPN on my mac</li>
-<li>VPN Express on my iPhone (iOS v6)</li>
-<li>Express VPN on my android device</li>
-</ul>
-
-
-<p>As a side note, today I also learn that <a href="https://github.com/shadowsocks/shadowsocks-iOS/issues/124#issuecomment-133630294">Shadowsocks code is removed by the author due to <strong>regulation</strong></a>. (<a href="https://news.ycombinator.com/item?id=10101469">Hacker news discussion</a>). Sad.</p>
+<p>此次活动也有一些不足，我们期待下一次的活动可以办得更好。</p>
 </div>
 
 
@@ -208,19 +236,19 @@
             
   
 
-<span class="byline author vcard">Posted by <span class="fn">Jimmy Chu</span></span>
+<span class="byline author vcard">Posted by <span class="fn">Zhizhao Lin</span></span>
 
             
 
 
 
 
-<time class='entry-date' datetime='2015-08-22T15:41:49+08:00'><span class='date'><span class='date-month'>Aug</span> <span class='date-day'>22</span><span class='date-suffix'>nd</span>, <span class='date-year'>2015</span></span> <span class='time'>3:41 pm</span></time>
+<time class='entry-date' datetime='2015-10-23T18:34:14+08:00'><span class='date'><span class='date-month'>Oct</span> <span class='date-day'>23</span><span class='date-suffix'>rd</span>, <span class='date-year'>2015</span></span> <span class='time'>6:34 pm</span></time>
             
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/china/'>china</a>, <a class='category' href='/blog/categories/living/'>living</a>
+    <a class='category' href='/blog/categories/cnpaas/'>cnpaas</a>, <a class='category' href='/blog/categories/paas/'>paas</a>
   
 </span>
 
@@ -229,7 +257,7 @@
           
             <div class="sharing">
   
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://blog.cnpaas.io/blog/climbing-over-the-gfw/" data-via="" data-counturl="http://blog.cnpaas.io/blog/climbing-over-the-gfw/" >Tweet</a>
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://blog.cnpaas.io/blog/2015-oct-activity/" data-via="" data-counturl="http://blog.cnpaas.io/blog/2015-oct-activity/" >Tweet</a>
   
   
   
@@ -238,10 +266,8 @@
           
           <p class="meta margin-top clearfix">
             
-              <a class="basic-alignment pull-left" href="/blog/nei-di-fan-qiang-xin-de/" title="Previous Post: 内地翻墙心得">&laquo; 内地翻墙心得</a>
+              <a class="basic-alignment pull-left" href="/blog/2015-oct-update/" title="Previous Post: CNPaaS 10月 与用户书">&laquo; CNPaaS 10月 与用户书</a>
             
-            
-              <a class="basic-alignment pull-right" href="/blog/company-vision/" title="Next Post: 公司愿景">公司愿景 &raquo;</a>
             
           </p>
         </footer>
@@ -302,8 +328,8 @@
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://blog.cnpaas.io/blog/climbing-over-the-gfw/';
-        var disqus_url = 'http://blog.cnpaas.io/blog/climbing-over-the-gfw/';
+        var disqus_identifier = 'http://blog.cnpaas.io/blog/2015-oct-activity/';
+        var disqus_url = 'http://blog.cnpaas.io/blog/2015-oct-activity/';
         var disqus_script = 'embed.js';
       
       (function () {
