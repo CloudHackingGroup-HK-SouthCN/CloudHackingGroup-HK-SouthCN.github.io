@@ -1,95 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>http://blog.cnpaas.io/blog/2015-oct-activity/</loc>
-    <lastmod>2015-10-23T18:34:14+08:00</lastmod>
-  </url>
-  <url>
-    <loc>http://blog.cnpaas.io/blog/2015-oct-update/</loc>
-    <lastmod>2015-10-14T18:34:14+08:00</lastmod>
-  </url>
-  <url>
-    <loc>http://blog.cnpaas.io/blog/company-vision/</loc>
-    <lastmod>2015-08-23T16:19:29+08:00</lastmod>
-  </url>
-  <url>
-    <loc>http://blog.cnpaas.io/blog/climbing-over-the-gfw/</loc>
-    <lastmod>2015-08-22T15:41:49+08:00</lastmod>
-  </url>
-  <url>
-    <loc>http://blog.cnpaas.io/blog/nei-di-fan-qiang-xin-de/</loc>
-    <lastmod>2015-08-22T15:21:40+08:00</lastmod>
-  </url>
-  <url>
-    <loc>http://blog.cnpaas.io/blog/event-01-result/</loc>
-    <lastmod>2015-08-16T10:34:14+08:00</lastmod>
-  </url>
-  <url>
-    <loc>http://blog.cnpaas.io/blog/featured-app-04/</loc>
-    <lastmod>2015-08-14T10:34:14+08:00</lastmod>
-  </url>
-  <url>
-    <loc>http://blog.cnpaas.io/blog/2015-aug-update/</loc>
-    <lastmod>2015-08-07T10:34:14+08:00</lastmod>
-  </url>
-  <url>
-    <loc>http://blog.cnpaas.io/blog/2015-jul-update/</loc>
-    <lastmod>2015-07-03T10:34:14+08:00</lastmod>
-  </url>
-  <url>
-    <loc>http://blog.cnpaas.io/blog/featured-app-03/</loc>
-    <lastmod>2015-07-02T10:34:14+08:00</lastmod>
-  </url>
-  <url>
-    <loc>http://blog.cnpaas.io/blog/2015-jun-update/</loc>
-    <lastmod>2015-05-29T18:34:14+08:00</lastmod>
-  </url>
-  <url>
-    <loc>http://blog.cnpaas.io/blog/2015-may-update/</loc>
-    <lastmod>2015-05-04T11:34:14+08:00</lastmod>
-  </url>
-  <url>
-    <loc>http://blog.cnpaas.io/blog/featured-app-02/</loc>
-    <lastmod>2015-05-04T10:34:14+08:00</lastmod>
-  </url>
-  <url>
-    <loc>http://blog.cnpaas.io/blog/featured-app-01/</loc>
-    <lastmod>2015-05-01T14:34:14+08:00</lastmod>
-  </url>
-  <url>
-    <loc>http://blog.cnpaas.io/blog/2015-apr-update/</loc>
-    <lastmod>2015-04-11T22:34:14+08:00</lastmod>
-  </url>
-  <url>
-    <loc>http://blog.cnpaas.io/blog/iaas-vs-paas-p2/</loc>
-    <lastmod>2015-03-29T15:34:14+08:00</lastmod>
-  </url>
-  <url>
-    <loc>http://blog.cnpaas.io/blog/iaas-vs-paas-p1/</loc>
-    <lastmod>2015-03-29T15:34:14+08:00</lastmod>
-  </url>
-  <url>
-    <loc>http://blog.cnpaas.io/blog/2015-mar-update/</loc>
-    <lastmod>2015-03-05T22:34:14+08:00</lastmod>
-  </url>
-  <url>
-    <loc>http://blog.cnpaas.io/blog/fig-tutum-study-note/</loc>
-    <lastmod>2014-09-29T16:59:17+08:00</lastmod>
-  </url>
-  <url>
-    <loc>http://blog.cnpaas.io/blog/first-docker-meetup-in-hong-kong/</loc>
-    <lastmod>2014-08-06T18:11:48+08:00</lastmod>
-  </url>
-  <url>
-    <loc>http://blog.cnpaas.io/blog/zou-jin-paas-ling-yu/</loc>
-    <lastmod>2014-07-08T13:02:51+08:00</lastmod>
+    <loc>http://blog.cnpaas.io/blog/cnpaas-ending-operation/</loc>
+    <lastmod>2015-10-30T11:49:17+08:00</lastmod>
   </url>
   <url>
     <loc>http://blog.cnpaas.io/</loc>
-    <lastmod>2015-10-24T10:50:48+08:00</lastmod>
+    <lastmod>2015-10-30T12:47:18+08:00</lastmod>
   </url>
   <url>
     <loc>http://blog.cnpaas.io/blog/archives/</loc>
-    <lastmod>2015-10-24T10:50:48+08:00</lastmod>
+    <lastmod>2015-10-30T12:47:18+08:00</lastmod>
   </url>
 </urlset>

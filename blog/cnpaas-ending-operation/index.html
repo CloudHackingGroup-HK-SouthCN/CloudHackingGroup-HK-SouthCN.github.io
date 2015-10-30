@@ -35,7 +35,7 @@
 <meta content="/images/favicon/browserconfig.xml" name="msapplication-config" />
 
 
-  <title>Climbing Over the GFW - CNPaaS 博客</title>
+  <title>CNPaaS 停止服务通知 - CNPaaS 博客</title>
 
   
   
@@ -47,7 +47,7 @@
   <![endif]-->
 
   
-  <link rel="canonical" href="http://blog.cnpaas.io/blog/climbing-over-the-gfw">
+  <link rel="canonical" href="http://blog.cnpaas.io/blog/cnpaas-ending-operation">
   
   <link href="/atom.xml" rel="alternate" title="CNPaaS 博客" type="application/atom+xml">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -137,7 +137,7 @@
         
   <header>
     
-      <h1 class="entry-title">Climbing Over the GFW</h1>
+      <h1 class="entry-title">CNPaaS 停止服务通知</h1>
     
     
       <p class="meta">
@@ -146,7 +146,7 @@
 
 
 
-<time class='entry-date' datetime='2015-08-22T15:41:49+08:00'><span class='date'><span class='date-month'>Aug</span> <span class='date-day'>22</span><span class='date-suffix'>nd</span>, <span class='date-year'>2015</span></span> <span class='time'>3:41 pm</span></time>
+<time class='entry-date' datetime='2015-10-30T11:49:17+08:00'><span class='date'><span class='date-month'>Oct</span> <span class='date-day'>30</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>11:49 am</span></time>
         
            | <a href="#disqus_thread"
              data-disqus-identifier="http://blog.cnpaas.io">Comments</a>
@@ -156,50 +156,19 @@
   </header>
 
 
-<div class="entry-content"><p>I had a business trip in China in the past two weeks, and this put my current VPN provider, Astrill, into test.</p>
+<div class="entry-content"><p>致各位用户，</p>
 
-<p>In its Pro subscription, Astrill has the OpenWeb, OpenVPN, and StealthVPN mode. OpenWeb is an HTTP/HTTPS proxy, which works well but only for http connections (ie. web browsing and connecting to http destination).</p>
+<p>在审视过当前国内的云应用平台业务市场及团队自身发展后，我们不得不作出这个艰难的决定。CNPaaS 将会停止服务。</p>
 
-<p>This is fine most of the time, but I am a ruby developer. I run <code>bundle install</code>, and get ruby gems from <a href="https://rubygems.org/.">https://rubygems.org/.</a> (It is fine also if you own the ruby project and could change the gems download destination to <a href="http://ruby.taobao.org/">taobao mirror</a>, but not fine if you are running Vagrant and other ruby project you do not own.)</p>
+<p>而我们的服务器将于 11月28日 (周六) 停止运营。你们在我们平台上的数据 (代码及数据库) 也将被销毁。</p>
 
-<p>Astrill OpenVPN and StealthVPN simply do not work in China.</p>
+<p>在这段期间你们可迁移应用／网站到其他类似的平台上，包括 <a href="http://www.daocloud.io/">Daocloud</a>，<a href="http://www.mopaas.com/">MoPaaS</a> ，或 <a href="http://tae.taobao.com/">阿里百川内的 TAE</a>。这些都是不错的选择。</p>
 
-<p>So, I researched and experimented a bit. I found:</p>
+<p>如果在导出源代码／数据上有什么问题，<a href="http://www.cnpaas.io/contact-us/">请与我们联络</a>。</p>
 
-<ul>
-<li><strong><a href="https://www.expressvpn.com/">Express VPN</a></strong>, and</li>
-<li><strong><a href="https://www.goldenfrog.com/vyprvpn">VyprVPN</a></strong></li>
-</ul>
+<p>在此感谢你们在这半年内使用我们的服务。</p>
 
-
-<p>These two services work well on my mac. I have tried each of them for more than 3 hours. I learn that some VPNs and even <code>ssh -D</code> would work for the first ten minutes in China, then it will start dropping data packets. This is because the GFW would do deep packet inspection (DPI) and use machine lerning to find heuristics to guess which TCP/UDP connection is likely being used as a VPN. When they think there is a high probability it is a VPN connection, they simply drop the packets. Now to bypass that, VPN tools need to obfuscate the data and hide itself from detection <img class='emoji' title=':smile:' alt=':smile:' src='https://assets.github.com/images/icons/emoji/unicode/1f604.png' height='20' width='20' align='absmiddle' />.</p>
-
-<p>Btw, I learned that <a href="https://en.wikipedia.org/wiki/Deep_packet_inspection">DPI is also performed in US</a></p>
-
-<p>VyprVPN has a <strong>Chameleon</strong> mode that would scramble metadata to prevent DPI, VPN blocking and throttling. ExpressVPN might also have similar technology, but didn&rsquo;t specifically mentioned in their website. ExpressVPN also work properly on my mac.</p>
-
-<p>The next natural extension would be to have your mobile device climb over the firewall as well. Both service providers offer iOS / Android version app for that.</p>
-
-<p>After experimenting:</p>
-
-<ul>
-<li>VyprVPN doesn&rsquo;t connect very well on my iOS v6 (I know, it is prehistoric) iPhone. But you could try it out in your device with the latest iOS device</li>
-<li>ExpressVPN requires at least iOS v8</li>
-<li>So instead I tried <strong><a href="https://itunes.apple.com/us/app/vpn-express/id375584677">VPN Express</a></strong> and work well on my iPhone. But I am not a heavy mobile device user. I checked that I could connect to Youtube for over 30 mins, sync all my Dropbox files, and check all my gmail accounts</li>
-<li>ExpressVPN does work well on my Android v4.4 device</li>
-</ul>
-
-
-<p>So my VPN service providers now:</p>
-
-<ul>
-<li>Express VPN on my mac</li>
-<li>VPN Express on my iPhone (iOS v6)</li>
-<li>Express VPN on my android device</li>
-</ul>
-
-
-<p>As a side note, today I also learn that <a href="https://github.com/shadowsocks/shadowsocks-iOS/issues/124#issuecomment-133630294">Shadowsocks code is removed by the author due to <strong>regulation</strong></a>. (<a href="https://news.ycombinator.com/item?id=10101469">Hacker news discussion</a>). Sad.</p>
+<p>CNPaaS 团队上</p>
 </div>
 
 
@@ -215,12 +184,12 @@
 
 
 
-<time class='entry-date' datetime='2015-08-22T15:41:49+08:00'><span class='date'><span class='date-month'>Aug</span> <span class='date-day'>22</span><span class='date-suffix'>nd</span>, <span class='date-year'>2015</span></span> <span class='time'>3:41 pm</span></time>
+<time class='entry-date' datetime='2015-10-30T11:49:17+08:00'><span class='date'><span class='date-month'>Oct</span> <span class='date-day'>30</span><span class='date-suffix'>th</span>, <span class='date-year'>2015</span></span> <span class='time'>11:49 am</span></time>
             
 
 <span class="categories">
   
-    <a class='category' href='/blog/categories/china/'>china</a>, <a class='category' href='/blog/categories/living/'>living</a>
+    <a class='category' href='/blog/categories/cnpaas/'>cnpaas</a>, <a class='category' href='/blog/categories/paas/'>paas</a>
   
 </span>
 
@@ -229,7 +198,7 @@
           
             <div class="sharing">
   
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://blog.cnpaas.io/blog/climbing-over-the-gfw/" data-via="" data-counturl="http://blog.cnpaas.io/blog/climbing-over-the-gfw/" >Tweet</a>
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://blog.cnpaas.io/blog/cnpaas-ending-operation/" data-via="" data-counturl="http://blog.cnpaas.io/blog/cnpaas-ending-operation/" >Tweet</a>
   
   
   
@@ -238,10 +207,6 @@
           
           <p class="meta margin-top clearfix">
             
-              <a class="basic-alignment pull-left" href="/blog/nei-di-fan-qiang-xin-de/" title="Previous Post: 内地翻墙心得">&laquo; 内地翻墙心得</a>
-            
-            
-              <a class="basic-alignment pull-right" href="/blog/company-vision/" title="Next Post: 公司愿景">公司愿景 &raquo;</a>
             
           </p>
         </footer>
@@ -264,23 +229,7 @@
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/blog/2015-oct-activity/">如何利用云服务助你创业 活动回顾</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2015-oct-update/">CNPaaS 10月 与用户书</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/company-vision/">公司愿景</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/climbing-over-the-gfw/">Climbing Over the GFW</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/nei-di-fan-qiang-xin-de/">内地翻墙心得</a>
+        <a href="/blog/cnpaas-ending-operation/">CNPaaS 停止服务通知</a>
       </li>
     
   </ul>
@@ -302,8 +251,8 @@
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://blog.cnpaas.io/blog/climbing-over-the-gfw/';
-        var disqus_url = 'http://blog.cnpaas.io/blog/climbing-over-the-gfw/';
+        var disqus_identifier = 'http://blog.cnpaas.io/blog/cnpaas-ending-operation/';
+        var disqus_url = 'http://blog.cnpaas.io/blog/cnpaas-ending-operation/';
         var disqus_script = 'embed.js';
       
       (function () {
