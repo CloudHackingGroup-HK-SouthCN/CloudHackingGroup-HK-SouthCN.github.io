@@ -5,6 +5,7 @@ date: 2014-09-29 16:59:17 +0800
 comments: true
 categories: [PaaS, Docker, Fig, Tutum]
 description: "Fig 及 Tutum 学习小结"
+published: false
 author: Jimmy Chu
 ---
 

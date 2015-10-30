@@ -4,6 +4,7 @@ title: "First Docker Meetup in Hong Kong"
 date: 2014-08-06 18:11:48 +0800
 comments: true
 categories: [PaaS, Docker, Meetup]
+published: false
 description: ""
 author: MY Li
 ---

@@ -5,6 +5,7 @@ date: 2015-10-23 18:34:14 +0800
 comments: true
 categories: [PaaS, CNPaaS]
 description: "CNPaaS 10月 活动回顾"
+published: false
 author: Zhizhao Lin
 ---
 

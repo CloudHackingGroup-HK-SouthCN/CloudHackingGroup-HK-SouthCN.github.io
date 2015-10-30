@@ -5,6 +5,7 @@ date: 2015-05-04 11:34:14 +0800
 comments: true
 categories: [PaaS, CNPaaS]
 description: "CNPaaS 5月快讯"
+published: false
 author: Zhizhao Lin
 ---
 
@@ -12,32 +13,32 @@ author: Zhizhao Lin
 
 ### 服务升级
 
-1. **CNPaaS 已升级架构，新增服务器**。    
+1. **CNPaaS 已升级架构，新增服务器**。
 自上个月 CNPaaS 上线以来，反应太热烈，用户太踊跃，让我们的幸福来得太突然太措手不及，在4月27日我们的服务器爆仓了，当日出现服务器异常的情况，对此我们向当日受到影响的用户 **挚诚道歉** 。为此我们 **新增了服务器资源** ，并提高了服务的 **稳定性** ，已经可以满足更多用户的需求。
 
-2. **CNPaaS 应用环境将调整，暂时只保留 静态HTML / PHP + MySQL 环境**。  
-为了将每个应用环境得到最大程度的优化，让用户的应用能更稳定地在 CNPaaS 运行，我们经过深思熟虑决定暂时只保留 **静态/HTML5应用** 及 **PHP应用** 两种语言环境，以及 **MySQL** 一种数据库服务。原有的 Python、Ruby、Node.js 等语言环境以及 PostgreSQL 和 MongoDB 两种数据库服务将暂时关闭。    
+2. **CNPaaS 应用环境将调整，暂时只保留 静态HTML / PHP + MySQL 环境**。
+为了将每个应用环境得到最大程度的优化，让用户的应用能更稳定地在 CNPaaS 运行，我们经过深思熟虑决定暂时只保留 **静态/HTML5应用** 及 **PHP应用** 两种语言环境，以及 **MySQL** 一种数据库服务。原有的 Python、Ruby、Node.js 等语言环境以及 PostgreSQL 和 MongoDB 两种数据库服务将暂时关闭。
 **该项改动从 5月11日 起生效。** 用户将不能新建除静态或PHP以外的应用，数据库将只能创建 MySQL 服务，直到其他服务器环境被调试到最优状态，届时将通过 [CNPaaS Blog] 和用户邮件进行通知。
 不过这项改动 **对于已启用这些服务的应用将不受影响**。 已经部署了其他语言应用的用户无需担心。
 
-3. **提升服务器响应速度**。    
+3. **提升服务器响应速度**。
 我们除提供日本线路外，新增新加坡线路，希望能让各位用户的应用能更快地被访问。
 
-4. **新增QQ群**。    
+4. **新增QQ群**。
 为方便 CNPaaS 的网友进行交流，我们创建了一个QQ群，群号是：**455706504** ，欢迎加入。
 
 ### 应用推荐
 
 CNPaaS 上线以来，已经有一些有意思值得推荐的特色应用。我们将陆续和大家分享。请关注 [CNPaaS Blog] 。
 
-1. **可能是世界上最小的导航网站**:    
-<http://pages-sunyanzi.app.cnpaas.io/>  
-一个简洁轻巧的用键盘直接打开不同网站的网址导航，非常适合设为浏览器首页。详细的介绍以及延伸的分享请阅读这篇blog：  
+1. **可能是世界上最小的导航网站**:
+<http://pages-sunyanzi.app.cnpaas.io/>
+一个简洁轻巧的用键盘直接打开不同网站的网址导航，非常适合设为浏览器首页。详细的介绍以及延伸的分享请阅读这篇blog：
 <http://blog.cnpaas.io/blog/featured-app-01/>
 
-2. **MarkNote**    
-<http://note-wusiyu.app.cnpaas.io>  
-MarkNote是一个轻量级云记事本系统，网友 [WuSiYu] 的原创 PHP 作品。一个趁手的MarkDown编辑器，可以一键加密和生成 HTML ，并且很方便地进行做设备协作。详情请阅读这篇blog：  
+2. **MarkNote**
+<http://note-wusiyu.app.cnpaas.io>
+MarkNote是一个轻量级云记事本系统，网友 [WuSiYu] 的原创 PHP 作品。一个趁手的MarkDown编辑器，可以一键加密和生成 HTML ，并且很方便地进行做设备协作。详情请阅读这篇blog：
 <http://blog.cnpaas.io/blog/featured-app-02/>
 
 如果你也在 CNPaaS 创建了属于你的演示项目，不妨 [联系我们] ，我们会分享给更多的朋友。

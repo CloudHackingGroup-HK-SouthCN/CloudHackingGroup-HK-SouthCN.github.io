@@ -5,6 +5,7 @@ date: 2015-08-07 10:34:14 +0800
 comments: true
 categories: [PaaS, CNPaaS]
 description: "CNPaaS 8月快讯"
+published: false
 author: Zhizhao Lin
 ---
 

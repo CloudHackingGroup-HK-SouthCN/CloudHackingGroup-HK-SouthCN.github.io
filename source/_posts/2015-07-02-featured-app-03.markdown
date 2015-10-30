@@ -5,10 +5,11 @@ date: 2015-07-02 10:34:14 +0800
 comments: true
 categories: [PaaS, CNPaaS, App]
 description: "一个 Android 技术博客"
+published: false
 author: Zhizhao Lin
 ---
 
-我们惊喜地发现已经有人在 [CNPaaS] 上部署他们的独立blog。其中就有一个叫 **Coding My Life** 的技术博客：  
+我们惊喜地发现已经有人在 [CNPaaS] 上部署他们的独立blog。其中就有一个叫 **Coding My Life** 的技术博客：
 **<http://www-heidong.app.cnpaas.io>**
 
 <img class="center" src="{{root_url}}/images/posts/featured-app-03.png" title="Coding My Life"></img>
@@ -19,7 +20,7 @@ author: Zhizhao Lin
 
 使用 Hexo 之类的静态网站生成器，你可以专注于用我们上次介绍 **[MarkNote]** 这款特色应用的时候提到过的 [MarkDown] 这种格式专心进行协作，然后生成静态的 html 网站。
 
-想了解更多的静态网站生成器，不妨看看这个列表：  
+想了解更多的静态网站生成器，不妨看看这个列表：
 <http://www.staticgen.com>
 
 在你生成了静态的 html 网站，就可以参考我们的 **[静态网站部署文档]** 轻松地把你创作的内容通过互联网和更多的人分享了。
@@ -31,7 +32,7 @@ author: Zhizhao Lin
 
 以上教程有视频哟！
 
-如果你想将你的 blog 分享给我们，欢迎填写以下表格：  
+如果你想将你的 blog 分享给我们，欢迎填写以下表格：
 <https://jinshuju.net/f/bftwI2>
 
 我们会对你的 blog 进行推广和分享。

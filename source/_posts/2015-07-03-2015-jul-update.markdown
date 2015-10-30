@@ -5,6 +5,7 @@ date: 2015-07-03 10:34:14 +0800
 comments: true
 categories: [PaaS, CNPaaS]
 description: "CNPaaS 7月快讯"
+published: false
 author: Zhizhao Lin
 ---
 
@@ -30,14 +31,14 @@ CNPaaS 有良好的 PHP 运行环境，并且可以一键创建 MySQL 数据库 
 
 以上教程均有视频演示，欢迎浏览。
 
-如果你想将你的 blog 分享给我们，欢迎填写以下表格：  
+如果你想将你的 blog 分享给我们，欢迎填写以下表格：
 **<https://jinshuju.net/f/bftwI2>**
 
 我们会对你的 blog 进行推广和分享。
 
 #### One More Thing:
 最后我们想提醒一下我们本月的一个活动：
-CNPaaS 将推出中容器（512MB）和大容器（1GB），希望能了解您的需求和意愿，请帮忙做一下这个问卷：  
+CNPaaS 将推出中容器（512MB）和大容器（1GB），希望能了解您的需求和意愿，请帮忙做一下这个问卷：
 **<http://www.mikecrm.com/f.php?t=N5UfKt>**
 
 **我们将从参与这个问卷调查的朋友，抽出15名获奖者，赢取半年的中容器（价值510元）和大容器（价值810元）使用权限（其中中容器获得者10名，大容器获得者5名）。**

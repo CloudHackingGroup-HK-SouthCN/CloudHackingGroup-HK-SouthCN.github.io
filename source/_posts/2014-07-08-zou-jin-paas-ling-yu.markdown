@@ -5,6 +5,7 @@ date: 2014-07-08 13:02:51 +0800
 comments: true
 categories: [PaaS, CNPaaS, China]
 description: "PaaS 领域为什么变得越来越火?"
+published: false
 author: Jimmy Chu
 ---
 
